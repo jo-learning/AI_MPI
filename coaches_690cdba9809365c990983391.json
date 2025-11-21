@@ -1,0 +1,316 @@
+[
+  {
+    "_id": {
+      "$oid": "673b63efc252bcc5e733f0ed"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 77,
+    "firstName": "sam",
+    "lastName": "coach",
+    "emailAddress": {
+      "email": "dotihagos@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$dUNdF3JE6lGcPKBFOPsSPeyUIqDP8r5YqYbTdT8QNfXsx.35x3Pbu",
+    "dateOfBirth": {
+      "$date": "2022-11-05T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "DD",
+      "number": "955-592-0000"
+    },
+    "address": {
+      "streetAddress": "something",
+      "streetAddress2": "abra castle",
+      "city": "Atlanta",
+      "stateProvince": "GAA",
+      "country": "USA",
+      "zipCode": "4444"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "matchResult",
+          "newMatch",
+          "friendActivity"
+        ],
+        "notificationFrequency": "weekly"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "weekly"
+      }
+    },
+    "avatar": "https://mpiglobal.org/uploads/profilePic-1755856832958_673b63efc252bcc5e733f0ed.png",
+    "role": "coach",
+    "googleId": "112603354727070804341",
+    "isOnline": true,
+    "lastOnline": {
+      "$date": "2024-11-18T15:57:35.893Z"
+    },
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "67bf4d46112e80c58f791377"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      }
+    ],
+    "organization": null,
+    "updatedAt": {
+      "$date": "2025-11-15T03:09:44.365Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "match play",
+        "group sessions"
+      ],
+      "specialties": [
+        "beginners"
+      ],
+      "minRank": 2.8592670115372374,
+      "maxRank": 5.328261073241733,
+      "zip": "60602",
+      "availability": [
+        {
+          "day": 4,
+          "startTime": 10,
+          "endTime": 13,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d1"
+          }
+        }
+      ],
+      "certification": "USPTA Level 1",
+      "courtSurfaces": [
+        "Indoor"
+      ],
+      "styleDescription": "Professional tennis coach with 7 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "French"
+      ],
+      "roles": [
+        "Assistant",
+        "Junior Instructor"
+      ],
+      "focusAreas": [
+        "intermediate",
+        "high school",
+        "tournament"
+      ],
+      "yearsExperience": 7,
+      "offerings": [
+        "group",
+        "single",
+        "package"
+      ],
+      "hourlyRate": 137,
+      "groupRate": 96,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 493.2,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d0"
+          }
+        }
+      ],
+      "travelRadius": 15,
+      "bio": "Experienced tennis coach with 7 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "USTA League Champion"
+      ],
+      "isAvailableForNewStudents": false,
+      "responseTime": "within 1 hour",
+      "rating": 4.4,
+      "totalReviews": 53,
+      "cancellationPolicy": "24 hours",
+      "verificationStatus": "unverified"
+    },
+    "deviceToken": "cgaCtcsCSbqNig-7LgJt2Q:APA91bH0P5iMnF2JG7FM7kf1KBBTp5cPGciFopp2VG7K68GyCHgaXNkJtLlKyAZRz_bzSz1Ll2M0h5-iVhV271kMHJlQRT6-AkqtcQa4VOO9zpjME-Rr39E",
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.144Z"
+    },
+    "assignedGroups": [
+      {
+        "group": {
+          "$oid": "6917ee7d1659bf22901d3b73"
+        },
+        "role": "head",
+        "responsibilities": [
+          "technique",
+          "strategy"
+        ],
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eef81659bf22901d3d05"
+        },
+        "assignedAt": {
+          "$date": "2025-11-15T03:09:44.362Z"
+        }
+      }
+    ],
+    "assignmentHistory": [],
+    "currentPlayers": [
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c593f4d0ba56f99260a56f"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2024-12-01T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c94245beceed92ca87e58f"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2024-12-01T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c94246beceed92ca87e654"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917ead921c6fce41d81167a"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917ead921c6fce41d811751"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eb1d79ce7f8a70fc8e33"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eb1e79ce7f8a70fc8f12"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-15T03:09:43.923Z"
+        },
+        "assignmentType": "group",
+        "sessionType": "group sessions",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eef81659bf22901d3d03"
+        }
+      }
+    ],
+    "loginAttempts": 0,
+    "organizationRole": "coach",
+    "organizationStatus": "pending",
+    "passwordSet": false,
+    "performanceMetrics": {
+      "activeAssignments": 8,
+      "totalPlayersCoached": 9,
+      "totalSessions": 0
+    },
+    "registrationStep": "email_verification"
+  }
+]

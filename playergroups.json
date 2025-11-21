@@ -1,0 +1,78 @@
+[
+  {
+    "_id": {
+      "$oid": "6917ee7d1659bf22901d3b73"
+    },
+    "name": "Junior Elite",
+    "description": "Elite junior players training group",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "type": "competitive",
+    "status": "active",
+    "criteria": {
+      "skillLevels": [],
+      "tennisRankings": []
+    },
+    "schedule": {
+      "sessions": []
+    },
+    "maxPlayers": 12,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "managedBy": [],
+    "autoAssignCoaches": false,
+    "allowPlayerRequests": true,
+    "requireApproval": true,
+    "players": [
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "status": "active",
+        "addedBy": {
+          "$oid": "690cdba9809365c990983391"
+        },
+        "notes": "Focus on technique development",
+        "_id": {
+          "$oid": "6917eee51659bf22901d3c03"
+        },
+        "joinedAt": {
+          "$date": "2025-11-15T03:09:25.917Z"
+        }
+      }
+    ],
+    "coaches": [
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "role": "head",
+        "responsibilities": [
+          "technique",
+          "strategy"
+        ],
+        "assignedBy": {
+          "$oid": "690cdba9809365c990983391"
+        },
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eef71659bf22901d3c1e"
+        },
+        "assignedAt": {
+          "$date": "2025-11-15T03:09:43.898Z"
+        }
+      }
+    ],
+    "waitingList": [],
+    "announcements": [],
+    "createdAt": {
+      "$date": "2025-11-15T03:07:41.008Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-15T03:09:43.899Z"
+    },
+    "__v": 2
+  }
+]

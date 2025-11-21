@@ -1,0 +1,1679 @@
+[
+  {
+    "_id": {
+      "$oid": "673b63efc252bcc5e733f0ed"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 77,
+    "firstName": "sam",
+    "lastName": "coach",
+    "emailAddress": {
+      "email": "dotihagos@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$dUNdF3JE6lGcPKBFOPsSPeyUIqDP8r5YqYbTdT8QNfXsx.35x3Pbu",
+    "dateOfBirth": {
+      "$date": "2022-11-05T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "DD",
+      "number": "955-592-0000"
+    },
+    "address": {
+      "streetAddress": "something",
+      "streetAddress2": "abra castle",
+      "city": "Atlanta",
+      "stateProvince": "GAA",
+      "country": "USA",
+      "zipCode": "4444"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "matchResult",
+          "newMatch",
+          "friendActivity"
+        ],
+        "notificationFrequency": "weekly"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "weekly"
+      }
+    },
+    "avatar": "https://mpiglobal.org/uploads/profilePic-1755856832958_673b63efc252bcc5e733f0ed.png",
+    "role": "coach",
+    "googleId": "112603354727070804341",
+    "isOnline": true,
+    "lastOnline": {
+      "$date": "2024-11-18T15:57:35.893Z"
+    },
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "67bf4d46112e80c58f791377"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "673b5771922706927eae7aea"
+      }
+    ],
+    "organization": null,
+    "updatedAt": {
+      "$date": "2025-11-15T03:09:44.365Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "match play",
+        "group sessions"
+      ],
+      "specialties": [
+        "beginners"
+      ],
+      "minRank": 2.8592670115372374,
+      "maxRank": 5.328261073241733,
+      "zip": "60602",
+      "availability": [
+        {
+          "day": 4,
+          "startTime": 10,
+          "endTime": 13,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d1"
+          }
+        }
+      ],
+      "certification": "USPTA Level 1",
+      "courtSurfaces": [
+        "Indoor"
+      ],
+      "styleDescription": "Professional tennis coach with 7 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "French"
+      ],
+      "roles": [
+        "Assistant",
+        "Junior Instructor"
+      ],
+      "focusAreas": [
+        "intermediate",
+        "high school",
+        "tournament"
+      ],
+      "yearsExperience": 7,
+      "offerings": [
+        "group",
+        "single",
+        "package"
+      ],
+      "hourlyRate": 137,
+      "groupRate": 96,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 493.2,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d0"
+          }
+        }
+      ],
+      "travelRadius": 15,
+      "bio": "Experienced tennis coach with 7 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "USTA League Champion"
+      ],
+      "isAvailableForNewStudents": false,
+      "responseTime": "within 1 hour",
+      "rating": 4.4,
+      "totalReviews": 53,
+      "cancellationPolicy": "24 hours",
+      "verificationStatus": "unverified"
+    },
+    "deviceToken": "cgaCtcsCSbqNig-7LgJt2Q:APA91bH0P5iMnF2JG7FM7kf1KBBTp5cPGciFopp2VG7K68GyCHgaXNkJtLlKyAZRz_bzSz1Ll2M0h5-iVhV271kMHJlQRT6-AkqtcQa4VOO9zpjME-Rr39E",
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.144Z"
+    },
+    "assignedGroups": [
+      {
+        "group": {
+          "$oid": "6917ee7d1659bf22901d3b73"
+        },
+        "role": "head",
+        "responsibilities": [
+          "technique",
+          "strategy"
+        ],
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eef81659bf22901d3d05"
+        },
+        "assignedAt": {
+          "$date": "2025-11-15T03:09:44.362Z"
+        }
+      }
+    ],
+    "assignmentHistory": [],
+    "currentPlayers": [
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c593f4d0ba56f99260a56f"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2024-12-01T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c94245beceed92ca87e58f"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2024-12-01T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c94246beceed92ca87e654"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917ead921c6fce41d81167a"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917ead921c6fce41d811751"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eb1d79ce7f8a70fc8e33"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eb1e79ce7f8a70fc8f12"
+        }
+      },
+      {
+        "player": {
+          "$oid": "673b5771922706927eae7aea"
+        },
+        "assignedAt": {
+          "$date": "2025-11-15T03:09:43.923Z"
+        },
+        "assignmentType": "group",
+        "sessionType": "group sessions",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eef81659bf22901d3d03"
+        }
+      }
+    ],
+    "loginAttempts": 0,
+    "organizationRole": "coach",
+    "organizationStatus": "pending",
+    "passwordSet": false,
+    "performanceMetrics": {
+      "activeAssignments": 8,
+      "totalPlayersCoached": 9,
+      "totalSessions": 0
+    },
+    "registrationStep": "email_verification"
+  },
+  {
+    "_id": {
+      "$oid": "673b81e57bd77ca5bc9d792c"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 86,
+    "deviceToken": "d5CNeyKpkknOtRrTvUQccr:APA91bGhYCL9RjQiWNEPbG15DSt_1Y9irXm5W79ryhxoCrrI1CPkzc9ea_4hZflVrKziec_H6UA9JrZU2yIC5JhuOASR-HfpFh8yFZ9he2zxNzGiZS7Ki7s",
+    "firstName": "Gelaw",
+    "lastName": "Haile",
+    "emailAddress": {
+      "email": "gelaw10@hotmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$MQeMkN6Bx67kc8EUoaaOHeq.v7NgyolIeCY2TPFwixeB6ouxdsjBW",
+    "dateOfBirth": {
+      "$date": "1990-11-22T21:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "4047238847"
+    },
+    "address": {
+      "streetAddress": "1212 Sandy Springs",
+      "streetAddress2": null,
+      "city": "Sandy Springs",
+      "stateProvince": "Georgia",
+      "country": "USA",
+      "zipCode": "30044"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "isOnline": true,
+    "lastOnline": {
+      "$date": "2024-11-18T18:05:25.624Z"
+    },
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+        "$oid": "67bbe95eb78e2317fd32dcce"
+      },
+      {
+        "$oid": "67fc635a471bd5b3914b10b9"
+      },
+      {
+        "$oid": "67fd6b24f911dc659a043515"
+      },
+      {
+        "$oid": "682f79939d32c26c33806535"
+      }
+    ],
+    "organization": null,
+    "updatedAt": {
+      "$date": "2025-11-15T22:17:20.399Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "mental coaching",
+        "match play",
+        "strategy coaching",
+        "group sessions"
+      ],
+      "specialties": [
+        "fitness",
+        "college"
+      ],
+      "minRank": 1.8042330938439104,
+      "maxRank": 5.861133468692736,
+      "zip": "90213",
+      "availability": [
+        {
+          "day": 3,
+          "startTime": 12,
+          "endTime": 18,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d6"
+          }
+        },
+        {
+          "day": 2,
+          "startTime": 17,
+          "endTime": 23,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d7"
+          }
+        }
+      ],
+      "certification": "USPTA Level 3",
+      "courtSurfaces": [
+        "Grass",
+        "Clay",
+        "Indoor"
+      ],
+      "styleDescription": "Professional tennis coach with 15 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "Mandarin"
+      ],
+      "roles": [
+        "Head Coach"
+      ],
+      "focusAreas": [
+        "college",
+        "beginners"
+      ],
+      "yearsExperience": 15,
+      "offerings": [
+        "monthly",
+        "single",
+        "group"
+      ],
+      "hourlyRate": 145,
+      "groupRate": 102,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 522,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828d5"
+          }
+        }
+      ],
+      "travelRadius": 7,
+      "bio": "Experienced tennis coach with 15 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "Junior Development Award",
+        "State Champion"
+      ],
+      "isAvailableForNewStudents": false,
+      "responseTime": "within 48 hours",
+      "rating": 3.6,
+      "totalReviews": 12,
+      "cancellationPolicy": "24 hours",
+      "verificationStatus": "unverified"
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.197Z"
+    },
+    "loginAttempts": 0,
+    "passwordSet": false,
+    "registrationStep": "email_verification",
+    "assignedGroups": [],
+    "assignmentHistory": [],
+    "currentPlayers": [],
+    "organizationRole": "coach",
+    "organizationStatus": "pending",
+    "performanceMetrics": {
+      "activeAssignments": 0,
+      "totalPlayersCoached": 0,
+      "totalSessions": 0
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6788089d000cf61d6d39128b"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 0,
+    "firstName": "natnael",
+    "lastName": "yeshiwas",
+    "emailAddress": {
+      "email": "natiyeshi12@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$QfoSw6LxvHCSYJIcoUgrW.whj0JLCX6CVT1/dfhH3H2xTw36tIfO6",
+    "dateOfBirth": {
+      "$date": "2024-11-19T21:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "ET",
+      "number": "945954712"
+    },
+    "address": {
+      "streetAddress": "Addis Ababa",
+      "streetAddress2": null,
+      "city": "Addis Ababa",
+      "stateProvince": "AA_",
+      "country": "ET_",
+      "zipCode": "21111"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [],
+    "organization": null,
+    "lastOnline": {
+      "$date": "2025-01-15T19:12:29.150Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-11T08:20:14.327Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "strategy coaching",
+        "fitness training",
+        "private lessons"
+      ],
+      "specialties": [
+        "seniors"
+      ],
+      "minRank": 1.003110603226777,
+      "maxRank": 6.716347088649654,
+      "zip": "77005",
+      "availability": [
+        {
+          "day": 0,
+          "startTime": 8,
+          "endTime": 10,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828dd"
+          }
+        }
+      ],
+      "certification": "PTR Level 2",
+      "courtSurfaces": [
+        "Hard"
+      ],
+      "styleDescription": "Professional tennis coach with 16 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "Russian"
+      ],
+      "roles": [
+        "Fitness Coach",
+        "Assistant"
+      ],
+      "focusAreas": [
+        "beginners",
+        "kids",
+        "tournament"
+      ],
+      "yearsExperience": 16,
+      "offerings": [
+        "intensive",
+        "group",
+        "package"
+      ],
+      "hourlyRate": 135,
+      "groupRate": 95,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 486,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828dc"
+          }
+        }
+      ],
+      "travelRadius": 12,
+      "bio": "Experienced tennis coach with 16 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "Junior Development Award"
+      ],
+      "isAvailableForNewStudents": true,
+      "responseTime": "within 48 hours",
+      "rating": 4.7,
+      "totalReviews": 49
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.327Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bb571cf561e199731fdb0f"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 1,
+    "deviceToken": "fv1g3jVJ-EXgr0iBJUkKkZ:APA91bHa4WsDTMfcT_i1aw4L70EogtXQE7-Z5rUydOf-5rwtMsOKrb5AwM1hcbAuxqLd-dzHuzgxRHVcq7Ud7U70ABWa0vHCzwVTv_jVtP8Kdt0zfmTU2TA",
+    "firstName": "Solomon",
+    "lastName": "Demeke",
+    "emailAddress": {
+      "email": "victorysportgroup@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$hEpayuzOdBw6v0NAOSlDR.xWfYvEKHM.YMw.bTgk0ObpdO8aA8uDW",
+    "dateOfBirth": {
+      "$date": "1971-03-10T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "ET",
+      "number": "966827835"
+    },
+    "address": {
+      "streetAddress": "Bole rd",
+      "streetAddress2": "1234",
+      "city": "Addis Ababa",
+      "stateProvince": "Lafto",
+      "country": "Ethiopia",
+      "zipCode": "1234"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [],
+    "organization": null,
+    "lastOnline": {
+      "$date": "2025-02-23T17:13:00.483Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-11T08:20:14.856Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "tournament coaching",
+        "private lessons"
+      ],
+      "specialties": [
+        "fitness",
+        "beginners"
+      ],
+      "minRank": 1.935934404278619,
+      "maxRank": 6.076296638499815,
+      "zip": "60602",
+      "availability": [
+        {
+          "day": 6,
+          "startTime": 14,
+          "endTime": 19,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828e2"
+          }
+        }
+      ],
+      "certification": "USPTA Level 3",
+      "courtSurfaces": [
+        "Hard",
+        "Clay"
+      ],
+      "styleDescription": "Professional tennis coach with 25 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "Portuguese"
+      ],
+      "roles": [
+        "Junior Instructor",
+        "Mental Coach"
+      ],
+      "focusAreas": [
+        "kids",
+        "teens",
+        "high school"
+      ],
+      "yearsExperience": 25,
+      "offerings": [
+        "single",
+        "group",
+        "intensive"
+      ],
+      "hourlyRate": 77,
+      "groupRate": 54,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 277.2,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828e1"
+          }
+        }
+      ],
+      "travelRadius": 18,
+      "bio": "Experienced tennis coach with 25 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "College Player",
+        "State Champion"
+      ],
+      "isAvailableForNewStudents": false,
+      "responseTime": "within 48 hours",
+      "rating": 4,
+      "totalReviews": 4
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.855Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67bcab96b78e2317fd3404ba"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 1,
+    "deviceToken": "dT_3kz03PkDDkhB3iB4hya:APA91bFu5fX-zaiRJJBwMTQjGYTiXT7U1mcLYEbDSBpsk6f6p3aJOLRoNcRTBf4C-_xEtxzhStJekIiecgSKA1_U3p81gCytA4--F6suo7LKiJkrBO4Ud9A",
+    "firstName": "Bryce",
+    "lastName": "Hagedorn",
+    "emailAddress": {
+      "email": "brycehagedorn@yahoo.com",
+      "verified": true
+    },
+    "password": "$2a$10$gOvHLxm9l3mtctMW4izn8.qrftDVEWEvF3xvOLzoIgqwAqZlHqlje",
+    "dateOfBirth": {
+      "$date": "1970-02-24T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "3213459355"
+    },
+    "address": {
+      "streetAddress": "1234 Main St.",
+      "streetAddress2": null,
+      "city": "Orlando",
+      "stateProvince": "Florida",
+      "country": "United States",
+      "zipCode": "12345"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [],
+    "organization": null,
+    "lastOnline": {
+      "$date": "2025-02-24T17:25:42.022Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-11T08:20:14.895Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "match play",
+        "strategy coaching",
+        "video analysis",
+        "fitness training"
+      ],
+      "specialties": [
+        "beginners"
+      ],
+      "minRank": 1.233235750522259,
+      "maxRank": 6.167910252010291,
+      "zip": "90211",
+      "availability": [
+        {
+          "day": 3,
+          "startTime": 9,
+          "endTime": 11,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828e7"
+          }
+        },
+        {
+          "day": 3,
+          "startTime": 6,
+          "endTime": 10,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828e8"
+          }
+        },
+        {
+          "day": 4,
+          "startTime": 9,
+          "endTime": 14,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828e9"
+          }
+        }
+      ],
+      "certification": "None",
+      "courtSurfaces": [
+        "Hard",
+        "Clay",
+        "Indoor"
+      ],
+      "styleDescription": "Professional tennis coach with 23 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "Other",
+        "French"
+      ],
+      "roles": [
+        "Fitness Coach"
+      ],
+      "focusAreas": [
+        "seniors",
+        "high school",
+        "adults"
+      ],
+      "yearsExperience": 23,
+      "offerings": [
+        "single",
+        "group"
+      ],
+      "hourlyRate": 103,
+      "groupRate": 72,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 370.8,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828e6"
+          }
+        }
+      ],
+      "travelRadius": 8,
+      "bio": "Experienced tennis coach with 23 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "State Champion"
+      ],
+      "isAvailableForNewStudents": true,
+      "responseTime": "within 48 hours",
+      "rating": 4,
+      "totalReviews": 60
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.894Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67ebd3ee4b553b7271e4eb6f"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 0,
+    "firstName": "Beza",
+    "lastName": "Dagi",
+    "emailAddress": {
+      "email": "beza8305@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$Mlcqp4QnKKpGPkOWgwTu5O9DOv6wkiYB6D064LzOiEfmTw367xGO2",
+    "dateOfBirth": {
+      "$date": "1996-01-22T21:00:00Z"
+    },
+    "gender": "female",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "12345454554"
+    },
+    "address": {
+      "streetAddress": "Address street",
+      "streetAddress2": null,
+      "city": "Bethel",
+      "stateProvince": "Alaska",
+      "country": "United States",
+      "zipCode": "1000"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [
+      {
+        "$oid": "67743f20f38abd3b7250a5a0"
+      }
+    ],
+    "organization": null,
+    "lastOnline": {
+      "$date": "2025-04-01T11:54:22.737Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-01T11:54:22.836Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-11T08:20:15.039Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "mental coaching",
+        "match play"
+      ],
+      "specialties": [
+        "seniors"
+      ],
+      "minRank": 1.8556199644539753,
+      "maxRank": 6.361887305310933,
+      "zip": "90210",
+      "availability": [
+        {
+          "day": 5,
+          "startTime": 12,
+          "endTime": 14,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828f0"
+          }
+        },
+        {
+          "day": 1,
+          "startTime": 11,
+          "endTime": 17,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828f1"
+          }
+        },
+        {
+          "day": 4,
+          "startTime": 16,
+          "endTime": 20,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828f2"
+          }
+        }
+      ],
+      "certification": "USPTA Level 3",
+      "courtSurfaces": [
+        "Indoor",
+        "Carpet"
+      ],
+      "styleDescription": "Professional tennis coach with 24 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "German"
+      ],
+      "roles": [
+        "Mental Coach",
+        "Head Coach"
+      ],
+      "focusAreas": [
+        "seniors",
+        "advanced"
+      ],
+      "yearsExperience": 24,
+      "offerings": [
+        "intensive",
+        "group",
+        "single"
+      ],
+      "hourlyRate": 87,
+      "groupRate": 61,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 313.2,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828ef"
+          }
+        }
+      ],
+      "travelRadius": 12,
+      "bio": "Experienced tennis coach with 24 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "Junior Development Award"
+      ],
+      "isAvailableForNewStudents": false,
+      "responseTime": "within 24 hours",
+      "rating": 5,
+      "totalReviews": 59
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-04-01T11:54:22.836Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "680100929d32c26c3374f182"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 0,
+    "deviceToken": "fbeiZ4spA0ydjr1stSeSnK:APA91bFqDaLrId_dIPUH_jxEALheJeo59qy85SDmehQx78Bs3e3xR6y5uCv6eeOxJACUjUGraQ4fbPSebnNC8h7jD_LLlDPxrEkHxr-omg8G9R0Y7iR59w8",
+    "firstName": "Birhane",
+    "lastName": "Araya",
+    "emailAddress": {
+      "email": "birhanearaya23@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$mIurWPfkFUV1Mjshc7S/qeNdtm4iFI0Ox38vZo9eragZQwhOtO5.u",
+    "dateOfBirth": {
+      "$date": "1978-05-02T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "ET",
+      "number": "945065432"
+    },
+    "address": {
+      "streetAddress": "Cameroon st",
+      "streetAddress2": null,
+      "city": "Addis Ababa",
+      "stateProvince": "Addis Ababa",
+      "country": "\ud83c\uddea\ud83c\uddf9    Ethiopia",
+      "zipCode": "1165"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "googleId": "113253467739763814683",
+    "isOnline": true,
+    "lastOnline": {
+      "$date": "2025-04-17T13:22:26.977Z"
+    },
+    "provider": "local",
+    "active": true,
+    "createdAt": {
+      "$date": "2025-04-17T13:22:27.046Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-20T10:51:03.613Z"
+    },
+    "__t": "Coach",
+    "players": [],
+    "organization": null,
+    "marketplaceProfile": {
+      "offeredServices": [
+        "video analysis",
+        "private lessons",
+        "fitness training",
+        "match play"
+      ],
+      "specialties": [
+        "beginners",
+        "seniors"
+      ],
+      "minRank": 2.272911292852069,
+      "maxRank": 5.775447218251892,
+      "zip": "90211",
+      "availability": [
+        {
+          "day": 2,
+          "startTime": 17,
+          "endTime": 21,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828f9"
+          }
+        }
+      ],
+      "certification": "PTR Level 1",
+      "courtSurfaces": [
+        "Clay",
+        "Grass"
+      ],
+      "styleDescription": "Professional tennis coach with 5 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "German",
+        "Italian"
+      ],
+      "roles": [
+        "Junior Instructor",
+        "Private Instructor"
+      ],
+      "focusAreas": [
+        "advanced",
+        "seniors",
+        "tournament"
+      ],
+      "yearsExperience": 5,
+      "offerings": [
+        "camp",
+        "package",
+        "monthly"
+      ],
+      "hourlyRate": 106,
+      "groupRate": 74,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 381.6,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828f8"
+          }
+        }
+      ],
+      "travelRadius": 13,
+      "bio": "Experienced tennis coach with 5 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "College Player",
+        "Junior Development Award",
+        "State Champion"
+      ],
+      "isAvailableForNewStudents": true,
+      "responseTime": "within 4 hours",
+      "rating": 4.1,
+      "totalReviews": 54,
+      "cancellationPolicy": "24 hours",
+      "verificationStatus": "unverified"
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-04-17T13:22:27.046Z"
+    },
+    "loginAttempts": 0,
+    "passwordSet": false,
+    "registrationStep": "email_verification",
+    "assignedGroups": [],
+    "assignmentHistory": [],
+    "currentPlayers": [],
+    "organizationRole": "coach",
+    "organizationStatus": "pending",
+    "performanceMetrics": {
+      "activeAssignments": 0,
+      "totalPlayersCoached": 0,
+      "totalSessions": 0
+    }
+  },
+  {
+    "_id": {
+      "$oid": "684004c89d32c26c3382135c"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 0,
+    "firstName": "Abel",
+    "lastName": "ttt",
+    "emailAddress": {
+      "email": "abelteame22@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$zvv5inx9nwHjbUOJENCyNOoF7STnXcbcvy/gSmEVYW/0Rp8/7t1AO",
+    "dateOfBirth": {
+      "$date": "1972-01-30T21:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "ET",
+      "number": "251987971218"
+    },
+    "address": {
+      "streetAddress": "2313123",
+      "streetAddress2": null,
+      "city": "Bethel",
+      "stateProvince": "Alaska",
+      "country": "United States",
+      "zipCode": "123123"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://picsum.photos/200/300",
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "__t": "Coach",
+    "players": [],
+    "organization": null,
+    "lastOnline": {
+      "$date": "2025-06-04T08:33:12.468Z"
+    },
+    "createdAt": {
+      "$date": "2025-06-04T08:33:12.570Z"
+    },
+    "updatedAt": {
+      "$date": "2025-08-11T08:20:15.298Z"
+    },
+    "marketplaceProfile": {
+      "offeredServices": [
+        "match play",
+        "fitness training"
+      ],
+      "specialties": [
+        "tournament preparation"
+      ],
+      "minRank": 2.483322558005541,
+      "maxRank": 5.603232523850563,
+      "zip": "85002",
+      "availability": [
+        {
+          "day": 5,
+          "startTime": 14,
+          "endTime": 17,
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828fe"
+          }
+        }
+      ],
+      "certification": "None",
+      "courtSurfaces": [
+        "Clay",
+        "Hard"
+      ],
+      "styleDescription": "Professional tennis coach with 24 years of experience. Specializing in player development and technique improvement.",
+      "languages": [
+        "Other",
+        "English"
+      ],
+      "roles": [
+        "Fitness Coach",
+        "Junior Instructor"
+      ],
+      "focusAreas": [
+        "high school",
+        "adults",
+        "seniors"
+      ],
+      "yearsExperience": 24,
+      "offerings": [
+        "single",
+        "group"
+      ],
+      "hourlyRate": 31,
+      "groupRate": 22,
+      "packageDeals": [
+        {
+          "sessions": 4,
+          "price": 111.60000000000001,
+          "description": "4-session package with 10% discount",
+          "_id": {
+            "$oid": "688a8e721e93ed7961c828fd"
+          }
+        }
+      ],
+      "travelRadius": 6,
+      "bio": "Experienced tennis coach with 24 years of professional coaching experience. Passionate about helping players reach their potential through personalized training programs.",
+      "achievements": [
+        "Tournament Director",
+        "Regional Champion"
+      ],
+      "isAvailableForNewStudents": true,
+      "responseTime": "within 1 hour",
+      "rating": 4.3,
+      "totalReviews": 15
+    },
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-06-04T08:33:12.570Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68fe9e17ea6eb1ad27f02303"
+    },
+    "isRegistrationComplete": true,
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-10-26T22:13:36.616Z"
+    },
+    "passwordSet": false,
+    "passwordSetAt": null,
+    "registrationStep": "completed",
+    "lastLoginAt": null,
+    "loginAttempts": 0,
+    "lockUntil": null,
+    "hasOtp": false,
+    "badge": 0,
+    "deviceToken": null,
+    "firstName": "terry",
+    "lastName": "kah",
+    "emailAddress": {
+      "email": "sam@test.com",
+      "verified": true
+    },
+    "password": "$2a$10$6fhZLGg9VoewVd.Mglk20OaljepwneELEpR/rYYFSgOjXN4v5l29i",
+    "dateOfBirth": {
+      "$date": "2007-10-25T00:00:00Z"
+    },
+    "gender": "female",
+    "phoneNumber": {
+      "countryCode": "+1",
+      "number": "92514708596"
+    },
+    "address": {
+      "streetAddress": "fgeddas",
+      "streetAddress2": "null",
+      "city": "Haines",
+      "stateProvince": "Alaska",
+      "country": "United States",
+      "zipCode": "10000"
+    },
+    "isProfilePublic": true,
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "lastOnline": {
+      "$date": "2025-10-26T22:17:59.478Z"
+    },
+    "createdAt": {
+      "$date": "2025-10-26T22:17:59.507Z"
+    },
+    "updatedAt": {
+      "$date": "2025-10-26T22:17:59.507Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68fe9e68ea6eb1ad27f02310"
+    },
+    "isRegistrationComplete": true,
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-10-26T22:18:30.479Z"
+    },
+    "passwordSet": false,
+    "passwordSetAt": null,
+    "registrationStep": "completed",
+    "lastLoginAt": null,
+    "loginAttempts": 0,
+    "lockUntil": null,
+    "hasOtp": false,
+    "badge": 0,
+    "deviceToken": null,
+    "firstName": "abelb",
+    "lastName": "abelbb",
+    "emailAddress": {
+      "email": "test@mpi.com",
+      "verified": true
+    },
+    "password": "$2a$10$/x8.mCPSggd/WBZiRkaZ1O176tN5E8wP5ZMYQb5I5QWWRfGS.fjDe",
+    "dateOfBirth": {
+      "$date": "2007-10-31T00:00:00Z"
+    },
+    "gender": "female",
+    "phoneNumber": {
+      "countryCode": "+251",
+      "number": "2517336644"
+    },
+    "address": {
+      "streetAddress": "Kelley",
+      "streetAddress2": "null",
+      "city": "Mek'ele",
+      "stateProvince": "Tigray Region",
+      "country": "Ethiopia",
+      "zipCode": "1000"
+    },
+    "isProfilePublic": true,
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "lastOnline": {
+      "$date": "2025-10-26T22:19:20.373Z"
+    },
+    "createdAt": {
+      "$date": "2025-10-26T22:19:20.511Z"
+    },
+    "updatedAt": {
+      "$date": "2025-10-26T22:19:20.511Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68ff8e11ea6eb1ad27f2ad0c"
+    },
+    "isRegistrationComplete": true,
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-10-27T15:20:51.303Z"
+    },
+    "passwordSet": false,
+    "passwordSetAt": null,
+    "registrationStep": "completed",
+    "lastLoginAt": null,
+    "loginAttempts": 0,
+    "lockUntil": null,
+    "hasOtp": false,
+    "badge": 0,
+    "deviceToken": null,
+    "firstName": "coco",
+    "lastName": "nuts",
+    "emailAddress": {
+      "email": "coco@coco.com",
+      "verified": true
+    },
+    "password": "$2a$10$iTXRk17JOSYYcV6nMbiou.83PiAd1odaJOzfOTTTKr4Rlfxm.qT.6",
+    "dateOfBirth": {
+      "$date": "2007-11-01T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "+251",
+      "number": "914281719"
+    },
+    "address": {
+      "streetAddress": "Kelley",
+      "streetAddress2": "",
+      "city": "Mek'ele",
+      "stateProvince": "Tigray Region",
+      "country": "Ethiopia",
+      "zipCode": "1000"
+    },
+    "isProfilePublic": true,
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "lastOnline": {
+      "$date": "2025-10-27T15:21:53.155Z"
+    },
+    "createdAt": {
+      "$date": "2025-10-27T15:21:53.304Z"
+    },
+    "updatedAt": {
+      "$date": "2025-10-27T15:21:53.304Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68ff908dea6eb1ad27f2ad21"
+    },
+    "isRegistrationComplete": true,
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-10-27T15:31:28.043Z"
+    },
+    "passwordSet": false,
+    "passwordSetAt": null,
+    "registrationStep": "completed",
+    "lastLoginAt": null,
+    "loginAttempts": 0,
+    "lockUntil": null,
+    "hasOtp": false,
+    "badge": 0,
+    "deviceToken": null,
+    "firstName": "abel",
+    "lastName": "cos",
+    "emailAddress": {
+      "email": "cos@mpi.com",
+      "verified": true
+    },
+    "password": "$2a$10$DsWVUlhC7ZK4OOQcGLYIxeU2NXEaeLbgQeEg/77wFRuMJAVmvBgmK",
+    "dateOfBirth": {
+      "$date": "2007-11-01T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "+251",
+      "number": "914281719"
+    },
+    "address": {
+      "streetAddress": "adddfg",
+      "streetAddress2": "",
+      "city": "Mek'ele",
+      "stateProvince": "Tigray Region",
+      "country": "Ethiopia",
+      "zipCode": "1000"
+    },
+    "isProfilePublic": true,
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "lastOnline": {
+      "$date": "2025-10-27T15:32:29.569Z"
+    },
+    "createdAt": {
+      "$date": "2025-10-27T15:32:29.703Z"
+    },
+    "updatedAt": {
+      "$date": "2025-10-27T15:32:29.703Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69009cadea6eb1ad27f2d537"
+    },
+    "isRegistrationComplete": true,
+    "emailVerified": true,
+    "emailVerifiedAt": {
+      "$date": "2025-10-28T10:35:25.900Z"
+    },
+    "passwordSet": false,
+    "passwordSetAt": null,
+    "registrationStep": "completed",
+    "lastLoginAt": null,
+    "loginAttempts": 0,
+    "lockUntil": null,
+    "hasOtp": false,
+    "badge": 0,
+    "deviceToken": null,
+    "firstName": "coach",
+    "lastName": "three",
+    "emailAddress": {
+      "email": "three@mpi.com",
+      "verified": true
+    },
+    "password": "$2a$10$SyHwcTj5iwkPK9i2MQZHdO2ppM4QqzqyBGajBzmQJlVDJiyyaVmkW",
+    "dateOfBirth": {
+      "$date": "2007-11-02T00:00:00Z"
+    },
+    "gender": "female",
+    "phoneNumber": {
+      "countryCode": "+93",
+      "number": "12345678"
+    },
+    "address": {
+      "streetAddress": "asdf",
+      "streetAddress2": "",
+      "city": "Ghormach",
+      "stateProvince": "Badghis",
+      "country": "Afghanistan",
+      "zipCode": "1000"
+    },
+    "isProfilePublic": true,
+    "role": "coach",
+    "isOnline": true,
+    "provider": "local",
+    "active": true,
+    "lastOnline": {
+      "$date": "2025-10-28T10:36:29.269Z"
+    },
+    "createdAt": {
+      "$date": "2025-10-28T10:36:29.411Z"
+    },
+    "updatedAt": {
+      "$date": "2025-10-28T10:36:29.411Z"
+    }
+  }
+]

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Messenger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --surface: rgba(255, 255, 255, 0.9);
+            --surface-dark: rgba(7, 12, 21, 0.9);
+            --accent: #7c3aed;
+            --accent-soft: rgba(124, 58, 237, 0.15);
+            --text: #0f172a;
+            --text-muted: #475569;
+            --success: #10b981;
+            --danger: #ef4444;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text);
+            background: radial-gradient(circle at top, #1d2342 0%, #080b12 60%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .app-shell {
+            width: min(960px, 100%);
+            background: var(--surface);
+            color: var(--text);
+            border-radius: 24px;
+            padding: clamp(1.5rem, 3vw, 2.5rem);
+            box-shadow: 0 25px 60px rgba(15, 23, 42, 0.3);
+            backdrop-filter: blur(16px);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .app-shell {
+                background: var(--surface-dark);
+                color: #e2e8f0;
+            }
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .title-block h1 {
+            margin: 0;
+            font-size: clamp(1.5rem, 2.7vw, 2.5rem);
+        }
+
+        .title-block p {
+            margin: 0.35rem 0 0;
+            color: var(--text-muted);
+            max-width: 28rem;
+            line-height: 1.4;
+        }
+
+        .status-chip {
+            padding: 0.45rem 1rem;
+            border-radius: 999px;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .status-chip::before {
+            content: '';
+            width: 0.6rem;
+            height: 0.6rem;
+            border-radius: 50%;
+            background: currentColor;
+            box-shadow: 0 0 12px currentColor;
+        }
+
+        .panel-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        }
+
+        .panel {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 18px;
+            padding: 1.25rem;
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .panel {
+                background: rgba(15, 23, 42, 0.6);
+                border-color: rgba(148, 163, 184, 0.25);
+            }
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .input-row {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .input-row input {
+            flex: 1;
+            padding: 0.85rem 1rem;
+            border-radius: 14px;
+            border: 1px solid rgba(148, 163, 184, 0.5);
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.75);
+            transition: border-color 150ms ease, box-shadow 150ms ease;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .input-row input {
+                background: rgba(15, 23, 42, 0.4);
+                color: #f8fafc;
+            }
+        }
+
+        .input-row input:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-soft);
+        }
+
+        .primary-btn {
+            border: none;
+            border-radius: 14px;
+            padding: 0.85rem 1.7rem;
+            font-size: 1rem;
+            font-weight: 600;
+            background: linear-gradient(130deg, #a855f7, #6366f1);
+            color: #fff;
+            cursor: pointer;
+            transition: transform 120ms ease, opacity 120ms ease;
+            min-width: 120px;
+        }
+
+        .primary-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .primary-btn:not(:disabled):hover {
+            transform: translateY(-1px);
+        }
+
+        .messages-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #messagesDiv {
+            height: clamp(260px, 40vh, 400px);
+            overflow-y: auto;
+            padding: 1rem;
+            border-radius: 16px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            background: rgba(255, 255, 255, 0.6);
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            #messagesDiv {
+                background: rgba(15, 23, 42, 0.35);
+            }
+        }
+
+        .message {
+            padding: 0.9rem 1rem;
+            border-radius: 14px;
+            line-height: 1.4;
+            font-size: 0.95rem;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+        }
+
+        .message.system { background: rgba(59, 130, 246, 0.15); color: #1d4ed8; }
+        .message.server { background: rgba(16, 185, 129, 0.15); color: #047857; }
+        .message.client { background: rgba(249, 115, 22, 0.15); color: #c2410c; }
+        .message.error { background: rgba(239, 68, 68, 0.15); color: #b91c1c; }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 640px) {
+            .input-row {
+                flex-direction: column;
+            }
+
+            .primary-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-shell">
+        <header>
+            <div class="title-block">
+                <h1>Realtime Messenger</h1>
+                <p>Connect to your WebSocket server, send quick pings, and watch messages stream in with a sleek, responsive interface.</p>
+            </div>
+            <span class="status-chip" id="connectionStatus">Connecting…</span>
+        </header>
+
+        <div class="panel-grid">
+            <section class="panel">
+                <label for="messageInput">Send a message</label>
+                <div class="input-row">
+                    <input type="text" id="messageInput" placeholder="Type your message and hit Enter" autocomplete="off">
+                    <button id="sendButton" class="primary-btn" disabled>Send</button>
+                </div>
+                <p style="margin-top:0.7rem; color: var(--text-muted); font-size: 0.9rem;">Tip: Press <strong>Enter</strong> to send immediately.</p>
+            </section>
+
+            <section class="panel messages-panel">
+                <div style="display:flex; align-items:center; gap:0.35rem;">
+                    <h2 style="margin:0; font-size:1.1rem;">Live feed</h2>
+                    <small style="color:var(--text-muted);">Newest at bottom</small>
+                </div>
+                <div id="messagesDiv" aria-live="polite"></div>
+            </section>
+        </div>
+
+        <footer>
+            Point the client to your own socket server by changing <code>SERVER_URL</code> in the script below.
+        </footer>
+    </div>
+
+    <script>
+        // Use the same port as the server
+    const SERVER_URL = 'ws://localhost:8081';
+        
+        // DOM Elements
+    const messagesDiv = document.getElementById('messagesDiv');
+    const messageInput = document.getElementById('messageInput');
+    const sendButton = document.getElementById('sendButton');
+    const statusChip = document.getElementById('connectionStatus');
+
+        let ws;
+
+        function connect() {
+            // Create a new WebSocket connection
+            ws = new WebSocket(SERVER_URL);
+
+            // Connection established
+            ws.onopen = () => {
+                logMessage('Connected to server.', 'system');
+                sendButton.disabled = false;
+                statusChip.textContent = 'Live';
+                statusChip.style.color = 'var(--success)';
+            };
+
+            // Message received from the server
+            ws.onmessage = (event) => {
+                logMessage(`Server: ${event.data}`, 'server');
+            };
+
+            // Connection closed
+            ws.onclose = () => {
+                logMessage('Disconnected from server.', 'system');
+                sendButton.disabled = true;
+                statusChip.textContent = 'Reconnecting…';
+                statusChip.style.color = 'var(--text-muted)';
+                // Attempt to reconnect after a short delay
+                setTimeout(connect, 3000); 
+            };
+
+            // Error handling
+            ws.onerror = (error) => {
+                logMessage(`WebSocket Error: ${error.message}`, 'error');
+                statusChip.textContent = 'Error';
+                statusChip.style.color = 'var(--danger)';
+            };
+        }
+
+        // Function to display messages
+        function logMessage(message, type) {
+            const newMessage = document.createElement('div');
+            newMessage.className = `message ${type}`;
+            newMessage.innerHTML = `<strong>${new Date().toLocaleTimeString()}</strong> · ${message}`;
+            messagesDiv.appendChild(newMessage);
+            // Scroll to the latest message
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        // Function to send a message
+        function sendMessage() {
+            const message = messageInput.value.trim();
+            if (message && ws.readyState === ws.OPEN) {
+                ws.send(message);
+                logMessage(`You sent: ${message}`, 'client');
+                messageInput.value = ''; // Clear input
+            }
+        }
+
+        // Add event listeners
+        sendButton.addEventListener('click', sendMessage);
+        messageInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        // Start the connection process
+        connect();
+    </script>
+</body>
+</html>

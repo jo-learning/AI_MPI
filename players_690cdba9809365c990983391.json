@@ -1,0 +1,2385 @@
+[
+  {
+    "_id": {
+      "$oid": "673b5771922706927eae7aea"
+    },
+    "isRegistrationComplete": true,
+    "hasOtp": false,
+    "badge": 263,
+    "firstName": "Saminass",
+    "lastName": "Gigar",
+    "emailAddress": {
+      "email": "saminasgigar@gmail.com",
+      "verified": true
+    },
+    "password": "$2a$10$YpieV2yLyK5ON8Z.mR1EbOUHpW6yEnKXUUeO7iLh22EoW/c6g5M4e",
+    "dateOfBirth": {
+      "$date": "2009-01-01T00:00:00Z"
+    },
+    "gender": "male",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "1234123444"
+    },
+    "address": {
+      "streetAddress": "asdff",
+      "streetAddress2": "asdf",
+      "city": "Addis Ababa",
+      "stateProvince": "Addis Ababa",
+      "country": "Ethiopiajj",
+      "zipCode": "1000"
+    },
+    "isProfilePublic": true,
+    "notificationPreference": {
+      "emailNotification": {
+        "enabled": true,
+        "notificationType": [
+          "friendActivity",
+          "newMatch"
+        ],
+        "notificationFrequency": "daily"
+      },
+      "pushNotification": {
+        "enabled": true,
+        "notificationType": [
+          "newMatch",
+          "matchReminder",
+          "matchResult",
+          "friendActivity",
+          "homeWork"
+        ],
+        "notificationFrequency": "daily"
+      }
+    },
+    "avatar": "https://mpiglobal.org/uploads/profilePic-1755612416675_673b5771922706927eae7aea.jpg",
+    "role": "player",
+    "googleId": "109754336285117808162",
+    "isOnline": true,
+    "lastOnline": {
+      "$date": "2024-11-18T15:04:17.467Z"
+    },
+    "provider": "local",
+    "active": true,
+    "__t": "Player",
+    "tennisRanking": "beginner",
+    "parents": [
+      {
+        "$oid": "673b810e7bd77ca5bc9d7908"
+      }
+    ],
+    "coaches": [
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+        "$oid": "673b81e57bd77ca5bc9d792c"
+      },
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      }
+    ],
+    "organization": null,
+    "loginStreak": 1,
+    "coachGoals": [
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "goals": [
+          {
+            "goal": "technical",
+            "term": "long",
+            "description": "asdf",
+            "measurement": "asdf",
+            "achievementDate": {
+              "$date": "2025-03-07T21:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "sadf",
+                "date": {
+                  "$date": "2025-03-05T16:40:11.602Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67c87e7f353706fd14bc29c0"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "sadf",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67c87e7f353706fd14bc29c1"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67b7e25b08b6597412fa7dc1"
+            },
+            "progress": [
+              {
+                "description": "Goal marked as achieved",
+                "date": {
+                  "$date": "2025-11-11T22:41:29.162Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "6913ad8a61f79beece03e151"
+                }
+              }
+            ]
+          },
+          {
+            "goal": "physical",
+            "term": "short",
+            "description": "get big",
+            "measurement": "weight",
+            "achievementDate": {
+              "$date": "2025-04-01T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Eat",
+                "date": {
+                  "$date": "2025-02-26T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a108826ceedb8272885575"
+                }
+              },
+              {
+                "description": "work out",
+                "date": {
+                  "$date": "2025-02-28T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a108826ceedb8272885576"
+                }
+              },
+              {
+                "description": "sleep",
+                "date": {
+                  "$date": "2025-02-28T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a108826ceedb8272885577"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "becoming overweight",
+                "isOvercome": true,
+                "_id": {
+                  "$oid": "68a108826ceedb8272885578"
+                }
+              },
+              {
+                "description": "over working out",
+                "isOvercome": true,
+                "_id": {
+                  "$oid": "68a108826ceedb8272885579"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67bd8207de058f46b3e0083c"
+            },
+            "progress": [
+              {
+                "description": "Goal completed",
+                "date": {
+                  "$date": "2025-08-16T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a108826ceedb827288557a"
+                }
+              }
+            ]
+          },
+          {
+            "goal": "mental",
+            "term": "long",
+            "description": "Getting Mentally stable ",
+            "measurement": "long term",
+            "achievementDate": {
+              "$date": "2025-03-01T12:56:24.531Z"
+            },
+            "actions": [
+              {
+                "description": "Goal one ",
+                "date": {
+                  "$date": "2025-03-01T12:56:58.068Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68afae0fb841b2d33f2df81b"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "obstacle one",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68afae0fb841b2d33f2df81c"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67c303070c7627ceb8d9152c"
+            },
+            "progress": []
+          },
+          {
+            "goal": "nutrition",
+            "term": "medium",
+            "description": "Eating Health Food edited",
+            "measurement": "Type",
+            "achievementDate": {
+              "$date": "2025-03-01T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "action one",
+                "date": {
+                  "$date": "2025-03-01T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a10dd66ceedb82728870fc"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "obstacle one",
+                "isOvercome": true,
+                "_id": {
+                  "$oid": "68a10dd66ceedb82728870fd"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67c305a70c7627ceb8d918da"
+            },
+            "progress": [
+              {
+                "description": "Goal completed",
+                "date": {
+                  "$date": "2025-08-16T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a10dd66ceedb82728870fe"
+                }
+              }
+            ]
+          },
+          {
+            "goal": "physical",
+            "term": "short",
+            "description": "sdf",
+            "measurement": "dfasd",
+            "achievementDate": {
+              "$date": "2025-03-28T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "dg",
+                "date": {
+                  "$date": "2025-03-05T10:24:19.344Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68aa2b1ccaa321e1fc3d3245"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "sfg",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68aa2b1ccaa321e1fc3d3246"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67c826ce353706fd14ba8b3e"
+            },
+            "progress": [
+              {
+                "description": "Goal marked as achieved",
+                "date": {
+                  "$date": "2025-09-15T16:25:56.190Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68c813e8b5d75cc50ae6366d"
+                }
+              }
+            ]
+          },
+          {
+            "goal": "mental",
+            "term": "long",
+            "description": "Win level six ",
+            "measurement": "Outcome. Win the whole tournament ",
+            "achievementDate": {
+              "$date": "2025-03-23T04:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Play a tournament ",
+                "date": {
+                  "$date": "2025-03-23T04:00:00Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67de25c55d5c2d499a7e5713"
+                }
+              }
+            ],
+            "obstacles": [],
+            "addOn": "",
+            "_id": {
+              "$oid": "67de256d5d5c2d499a7e55f5"
+            },
+            "progress": []
+          },
+          {
+            "goal": "physical",
+            "term": "short",
+            "description": "tetsing",
+            "measurement": "Testing",
+            "achievementDate": {
+              "$date": "2025-08-05T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Eat",
+                "date": {
+                  "$date": "2025-08-27T00:00:00Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68a0f5066ceedb8272883c54"
+                }
+              },
+              {
+                "description": "Exercixe",
+                "date": {
+                  "$date": "2025-08-20T00:00:00Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68a0f5066ceedb8272883c55"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Calorie defict",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68a0f5066ceedb8272883c56"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "68a0f5066ceedb8272883c53"
+            },
+            "progress": [
+              {
+                "description": "Goal marked as achieved",
+                "date": {
+                  "$date": "2025-09-15T16:25:53.936Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68c813e2b5d75cc50ae63377"
+                }
+              }
+            ]
+          },
+          {
+            "goal": "technical",
+            "term": "short",
+            "description": "Testing",
+            "measurement": "testing edited",
+            "achievementDate": {
+              "$date": "2025-10-03T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "eat",
+                "date": {
+                  "$date": "2025-09-02T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a106496ceedb8272885176"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "tew",
+                "isOvercome": true,
+                "_id": {
+                  "$oid": "68a106496ceedb8272885177"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "68a0fb3e6ceedb82728847a5"
+            },
+            "progress": [
+              {
+                "description": "Goal completed",
+                "date": {
+                  "$date": "2025-08-16T00:00:00Z"
+                },
+                "isDone": true,
+                "_id": {
+                  "$oid": "68a106496ceedb8272885178"
+                }
+              }
+            ]
+          },
+          {
+            "goal": "recovery",
+            "term": "short",
+            "description": "Get clean",
+            "measurement": "%",
+            "achievementDate": {
+              "$date": "2025-09-16T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Do laundry ",
+                "date": {
+                  "$date": "2025-09-16T00:47:26.922Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68c8ec7cb5d75cc50ae76683"
+                }
+              },
+              {
+                "description": "Use the dryer ",
+                "date": {
+                  "$date": "2025-09-16T00:48:34.904Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68c8ec7cb5d75cc50ae76684"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Forgetting to do it ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68c8ec7cb5d75cc50ae76685"
+                }
+              },
+              {
+                "description": "Forgetting to buy detergent ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68c8ec7cb5d75cc50ae76686"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "68c8ec7cb5d75cc50ae76682"
+            },
+            "progress": []
+          },
+          {
+            "goal": "recovery",
+            "term": "medium",
+            "description": "Sleep 8 hours ",
+            "measurement": "Number of hours (10)",
+            "achievementDate": {
+              "$date": "2025-09-30T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Start sleep routine 9pm",
+                "date": {
+                  "$date": "2025-09-29T00:00:00Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68d8bd190e22f22ef9f66dc2"
+                }
+              }
+            ],
+            "obstacles": [],
+            "addOn": "",
+            "_id": {
+              "$oid": "68d8bcd90e22f22ef9f66bbd"
+            },
+            "progress": []
+          }
+        ],
+        "_id": {
+          "$oid": "67b15b78a74b3fd3d4378395"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b81e57bd77ca5bc9d792c"
+        },
+        "goals": [
+          {
+            "goal": "physical",
+            "term": "short",
+            "description": "Edurance ",
+            "measurement": "Being able to run for 5K without stopping ",
+            "achievementDate": {
+              "$date": "2025-02-20T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "start running a mile every other day. ",
+                "date": {
+                  "$date": "2025-02-20T00:00:00Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67b683aaaf6cfa17b9aeac33"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Reaggrivating injury ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67b683aaaf6cfa17b9aeac34"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67b683aaaf6cfa17b9aeac32"
+            },
+            "progress": []
+          },
+          {
+            "goal": "mental",
+            "term": "short",
+            "description": "from the player side",
+            "measurement": "hsiso",
+            "achievementDate": {
+              "$date": "2025-02-21T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "hsish",
+                "date": {
+                  "$date": "2025-02-20T02:22:06.881Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67b683ddaf6cfa17b9aeb0a4"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "sjkwhw",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67b683ddaf6cfa17b9aeb0a5"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67b683ddaf6cfa17b9aeb0a3"
+            },
+            "progress": []
+          },
+          {
+            "goal": "recovery",
+            "term": "long",
+            "description": "Active rest ",
+            "measurement": "Number of hours ",
+            "achievementDate": {
+              "$date": "2025-02-24T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Sleep 9 hours ",
+                "date": {
+                  "$date": "2025-02-23T12:30:11.789Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67bb5b77f561e199731fe283"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Social media ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67bb5b77f561e199731fe284"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67bb5b77f561e199731fe282"
+            },
+            "progress": []
+          },
+          {
+            "goal": "technical",
+            "term": "long",
+            "description": "Working Forehand ",
+            "measurement": "Time ",
+            "achievementDate": {
+              "$date": "2025-02-28T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Hit 100 balls everyday ",
+                "date": {
+                  "$date": "2025-02-27T13:48:10.380Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67c0b3a8d1f18f8affda5572"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Exam ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67c0b3a8d1f18f8affda5573"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67c0b3a8d1f18f8affda5571"
+            },
+            "progress": []
+          },
+          {
+            "goal": "physical",
+            "term": "long",
+            "description": "Long goal",
+            "measurement": "long",
+            "achievementDate": {
+              "$date": "2025-03-05T10:34:34.882Z"
+            },
+            "actions": [
+              {
+                "description": "ads",
+                "date": {
+                  "$date": "2025-03-05T10:34:52.018Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67c828d1353706fd14ba8f42"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "adf",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67c828d1353706fd14ba8f43"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67c828d1353706fd14ba8f41"
+            },
+            "progress": []
+          },
+          {
+            "goal": "physical",
+            "term": "long",
+            "description": "Running a mile under 6 minutes ",
+            "measurement": "Time ",
+            "achievementDate": {
+              "$date": "2025-03-17T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Start running three time a week for a mile each ",
+                "date": {
+                  "$date": "2025-03-12T18:32:14.508Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67d20bce7d07801aa96bcf76"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Exam coming ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67d20bce7d07801aa96bcf77"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67d20bce7d07801aa96bcf75"
+            },
+            "progress": []
+          },
+          {
+            "goal": "recovery",
+            "term": "short",
+            "description": "gggg",
+            "measurement": "Time and number of exercises. ",
+            "achievementDate": {
+              "$date": "2025-04-04T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Spend 30 minutes twice ",
+                "date": {
+                  "$date": "2025-04-03T23:00:19.552Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "67ef4cbe7bab06fb32b6d4bd"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Exam and school work",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "67ef4cbe7bab06fb32b6d4be"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "67ef4cbe7bab06fb32b6d4bc"
+            },
+            "progress": []
+          },
+          {
+            "goal": "recovery",
+            "term": "short",
+            "description": "Maintain post practice or match recovery routines. ",
+            "measurement": "Time and repeatation ",
+            "achievementDate": {
+              "$date": "2025-09-30T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "Take a light jog for 5 minutes ",
+                "date": {
+                  "$date": "2025-08-20T19:56:45.168Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68a661e044e50dd66d3e206c"
+                }
+              },
+              {
+                "description": "Complete static stretching by holding each pose for 15 seconds at least ",
+                "date": {
+                  "$date": "2025-08-20T19:59:44.652Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68a661e044e50dd66d3e206d"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "lack of discipline to stay consistent ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68a661e044e50dd66d3e206e"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "68a661e044e50dd66d3e206b"
+            },
+            "progress": []
+          },
+          {
+            "goal": "recovery",
+            "term": "short",
+            "description": "stretch ",
+            "measurement": "20 minutes ",
+            "achievementDate": {
+              "$date": "2025-08-31T00:00:00Z"
+            },
+            "actions": [
+              {
+                "description": "set a reminder ",
+                "date": {
+                  "$date": "2025-08-29T22:00:35.143Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68b25bd6c8088bc819a8ee9f"
+                }
+              },
+              {
+                "description": "prepare all gears ",
+                "date": {
+                  "$date": "2025-08-29T22:02:09.466Z"
+                },
+                "isDone": false,
+                "_id": {
+                  "$oid": "68b25bd6c8088bc819a8eea0"
+                }
+              }
+            ],
+            "obstacles": [
+              {
+                "description": "Lack of discipline ",
+                "isOvercome": false,
+                "_id": {
+                  "$oid": "68b25bd6c8088bc819a8eea1"
+                }
+              }
+            ],
+            "addOn": "",
+            "_id": {
+              "$oid": "68b25bd6c8088bc819a8ee9e"
+            },
+            "progress": []
+          }
+        ],
+        "_id": {
+          "$oid": "67b683aaaf6cfa17b9aeac31"
+        }
+      }
+    ],
+    "lastLoginDate": {
+      "$date": "2025-04-04T04:01:30.515Z"
+    },
+    "periodizations": [
+      {
+        "startingDate": {
+          "$date": "2025-02-21T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-05-22T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 2,
+            "timeType": "days",
+            "generals": [
+              "hdjjdd",
+              "asdqs"
+            ],
+            "specifics": [],
+            "specificDescriptions": []
+          },
+          "competition": {
+            "allocatedTime": 23,
+            "timeType": "days",
+            "precompetitions": [
+              "jdjdkkd"
+            ],
+            "tournaments": [
+              "ndnjdk"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 5,
+            "timeType": "days",
+            "activeRest": [
+              "asdffa"
+            ]
+          },
+          "_id": {
+            "$oid": "67bf19a5112e80c58f78f5d0"
+          }
+        },
+        "technical": {
+          "preparation": {
+            "allocatedTime": 8,
+            "timeType": "weeks",
+            "generals": [
+              "pushup"
+            ],
+            "specifics": [],
+            "specificDescriptions": [
+              "tere"
+            ]
+          },
+          "competition": {
+            "allocatedTime": 12,
+            "timeType": "days",
+            "precompetitions": [
+              "adffaf"
+            ],
+            "tournaments": [
+              "aaa"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 2,
+            "timeType": "weeks",
+            "activeRest": [
+              "asads"
+            ]
+          },
+          "_id": {
+            "$oid": "67bf19a5112e80c58f78f5d1"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "precompetitions": [
+              "asdff"
+            ],
+            "tournaments": [
+              "adsff"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "activeRest": [
+              "aaa"
+            ]
+          },
+          "_id": {
+            "$oid": "67bf19a5112e80c58f78f5d2"
+          }
+        },
+        "tactical": {
+          "preparation": {
+            "allocatedTime": 10,
+            "timeType": "days",
+            "generals": [
+              "Increase stamina"
+            ],
+            "specifics": [],
+            "specificDescriptions": [
+              "Run 5k under 20 minutes"
+            ]
+          },
+          "competition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "precompetitions": [
+              "dafaf"
+            ],
+            "tournaments": [
+              "adsffd"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "activeRest": [
+              "sdfadf"
+            ]
+          },
+          "_id": {
+            "$oid": "67bf19a5112e80c58f78f5d3"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "precompetitions": [
+              "adsfads"
+            ],
+            "tournaments": [
+              "fff"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "activeRest": [
+              "adf"
+            ]
+          },
+          "_id": {
+            "$oid": "67bf19a5112e80c58f78f5d4"
+          }
+        },
+        "recovery": {
+          "preparation": {
+            "allocatedTime": 10,
+            "timeType": "days",
+            "generals": [
+              "Eat"
+            ],
+            "specifics": [
+              {
+                "$oid": "67c305a70c7627ceb8d918da"
+              }
+            ],
+            "specificDescriptions": [
+              "East eat"
+            ]
+          },
+          "competition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "precompetitions": [
+              "asdf"
+            ],
+            "tournaments": [
+              "fda"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 3,
+            "timeType": "weeks",
+            "activeRest": [
+              "some si"
+            ]
+          },
+          "_id": {
+            "$oid": "67bf19a5112e80c58f78f5d5"
+          }
+        },
+        "_id": {
+          "$oid": "67bf19a5112e80c58f78f5cf"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-02-27T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-03-13T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 1,
+            "timeType": "days",
+            "generals": [],
+            "specifics": [],
+            "specificDescriptions": []
+          },
+          "competition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "precompetitions": [
+              "asdf"
+            ],
+            "tournaments": [
+              "asdf"
+            ]
+          },
+          "transition": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "activeRest": [
+              "asdfaff"
+            ]
+          },
+          "_id": {
+            "$oid": "67c00d39112e80c58f7969cb"
+          }
+        },
+        "technical": {
+          "preparation": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "generals": [
+              "asdf"
+            ],
+            "specifics": [
+              {
+                "$oid": "67b7e25b08b6597412fa7dc1"
+              }
+            ],
+            "specificDescriptions": [
+              "adsf"
+            ]
+          },
+          "competition": {
+            "allocatedTime": 15,
+            "timeType": "days",
+            "precompetitions": [
+              "asdfaf"
+            ],
+            "tournaments": [
+              "asdffa"
+            ]
+          },
+          "transition": null,
+          "_id": {
+            "$oid": "67c00d39112e80c58f7969cc"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c00d39112e80c58f7969cd"
+          }
+        },
+        "tactical": {
+          "preparation": {
+            "allocatedTime": 11,
+            "timeType": "days",
+            "generals": [
+              "11"
+            ],
+            "specifics": [
+              {
+                "$oid": "67bd8207de058f46b3e0083c"
+              }
+            ],
+            "specificDescriptions": [
+              "22"
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c00d39112e80c58f7969ce"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c00d39112e80c58f7969cf"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c00d39112e80c58f7969d0"
+          }
+        },
+        "_id": {
+          "$oid": "67c00d39112e80c58f7969ca"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-02-27T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-02-28T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": null,
+          "competition": {
+            "allocatedTime": 2,
+            "timeType": "days",
+            "precompetitions": [
+              "asdfaf"
+            ],
+            "tournaments": [
+              "asdfsfa"
+            ]
+          },
+          "transition": null,
+          "_id": {
+            "$oid": "67c01465112e80c58f797b8e"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": {
+            "allocatedTime": 2,
+            "timeType": "days",
+            "precompetitions": [
+              "adfadsfaf"
+            ],
+            "tournaments": [
+              "afdsafsafa"
+            ]
+          },
+          "transition": null,
+          "_id": {
+            "$oid": "67c01465112e80c58f797b8f"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c01465112e80c58f797b90"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c01465112e80c58f797b91"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c01465112e80c58f797b92"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c01465112e80c58f797b93"
+          }
+        },
+        "_id": {
+          "$oid": "67c01465112e80c58f797b8d"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-02-27T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-02-28T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c0146e112e80c58f797bcc"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c0146e112e80c58f797bcd"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": {
+            "allocatedTime": 1,
+            "timeType": "days",
+            "precompetitions": [
+              "ggf"
+            ],
+            "tournaments": [
+              "VC d"
+            ]
+          },
+          "transition": null,
+          "_id": {
+            "$oid": "67c0146e112e80c58f797bce"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c0146e112e80c58f797bcf"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c0146e112e80c58f797bd0"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c0146e112e80c58f797bd1"
+          }
+        },
+        "_id": {
+          "$oid": "67c0146e112e80c58f797bcb"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-03-03T14:58:54.170Z"
+        },
+        "endingDate": {
+          "$date": "2025-04-13T21:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c5c3d3353706fd14b69f68"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c5c3d3353706fd14b69f69"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c5c3d3353706fd14b69f6a"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c5c3d3353706fd14b69f6b"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c5c3d3353706fd14b69f6c"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c5c3d3353706fd14b69f6d"
+          }
+        },
+        "_id": {
+          "$oid": "67c5c3d3353706fd14b69f67"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-03-08T21:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-06-01T21:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87ef9353706fd14bc2ba2"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87ef9353706fd14bc2ba3"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87ef9353706fd14bc2ba4"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87ef9353706fd14bc2ba5"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87ef9353706fd14bc2ba6"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87ef9353706fd14bc2ba7"
+          }
+        },
+        "_id": {
+          "$oid": "67c87ef9353706fd14bc2ba1"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-03-08T21:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-06-01T21:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 6,
+            "timeType": "days",
+            "generals": [
+              "obj 1"
+            ],
+            "specifics": [
+              {
+                "$oid": "67bd8207de058f46b3e0083c"
+              }
+            ],
+            "specificDescriptions": [
+              "Desc 1"
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87efc353706fd14bc2bd5"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87efc353706fd14bc2bd6"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87efc353706fd14bc2bd7"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87efc353706fd14bc2bd8"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87efc353706fd14bc2bd9"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c87efc353706fd14bc2bda"
+          }
+        },
+        "_id": {
+          "$oid": "67c87efc353706fd14bc2bd4"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-03-06T12:58:57.312Z"
+        },
+        "endingDate": {
+          "$date": "2025-06-25T21:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c99c2a353706fd14bc743a"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c99c2a353706fd14bc743b"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c99c2a353706fd14bc743c"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c99c2a353706fd14bc743d"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c99c2a353706fd14bc743e"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67c99c2a353706fd14bc743f"
+          }
+        },
+        "_id": {
+          "$oid": "67c99c2a353706fd14bc7439"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-03-16T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2026-03-16T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 2,
+            "timeType": "weeks",
+            "generals": [
+              "Increase stamina "
+            ],
+            "specifics": [
+              {
+                "$oid": "67b683aaaf6cfa17b9aeac32"
+              }
+            ],
+            "specificDescriptions": [
+              "Run 10K under 40 minutes "
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67d20c3f7d07801aa96bd15c"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67d20c3f7d07801aa96bd15d"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67d20c3f7d07801aa96bd15e"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67d20c3f7d07801aa96bd15f"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67d20c3f7d07801aa96bd160"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67d20c3f7d07801aa96bd161"
+          }
+        },
+        "_id": {
+          "$oid": "67d20c3f7d07801aa96bd15b"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-04-06T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-05-18T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 10,
+            "timeType": "days",
+            "generals": [
+              "maintain stamina ",
+              "maintain power ",
+              "Maintain and increase agility "
+            ],
+            "specifics": [],
+            "specificDescriptions": [
+              "hahahah"
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67ef01c04b553b7271e61c9c"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67ef01c04b553b7271e61c9d"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67ef01c04b553b7271e61c9e"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67ef01c04b553b7271e61c9f"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67ef01c04b553b7271e61ca0"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "67ef01c04b553b7271e61ca1"
+          }
+        },
+        "_id": {
+          "$oid": "67ef01c04b553b7271e61c9b"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-08-16T23:06:43.438Z"
+        },
+        "endingDate": {
+          "$date": "2025-11-16T23:06:43.438Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 8,
+            "timeType": "weeks",
+            "generals": [
+              "eat"
+            ],
+            "specifics": [],
+            "specificDescriptions": [
+              "sad"
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68a10f036ceedb827288760c"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68a10f036ceedb827288760d"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68a10f036ceedb827288760e"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68a10f036ceedb827288760f"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68a10f036ceedb8272887610"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68a10f036ceedb8272887611"
+          }
+        },
+        "_id": {
+          "$oid": "68a10f036ceedb827288760b"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-09-16T00:00:00Z"
+        },
+        "endingDate": {
+          "$date": "2025-10-16T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 1,
+            "timeType": "weeks",
+            "generals": [
+              "Get all equipment ready"
+            ],
+            "specifics": [
+              {
+                "$oid": "67c305a70c7627ceb8d918da"
+              }
+            ],
+            "specificDescriptions": [
+              "Being tournament ready by preparing all necessary logistical preparations"
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68c8ed89b5d75cc50ae768bc"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68c8ed89b5d75cc50ae768bd"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68c8ed89b5d75cc50ae768be"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68c8ed89b5d75cc50ae768bf"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68c8ed89b5d75cc50ae768c0"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68c8ed89b5d75cc50ae768c1"
+          }
+        },
+        "_id": {
+          "$oid": "68c8ed89b5d75cc50ae768bb"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-09-20T00:34:27.568Z"
+        },
+        "endingDate": {
+          "$date": "2025-10-20T00:00:00Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 1,
+            "timeType": "weeks",
+            "generals": [
+              "Match managements"
+            ],
+            "specifics": [
+              {
+                "$oid": "67c303070c7627ceb8d9152c"
+              }
+            ],
+            "specificDescriptions": [
+              "Understanding momentum"
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68ce2eed2c7c0e6169e37432"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68ce2eed2c7c0e6169e37433"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68ce2eed2c7c0e6169e37434"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68ce2eed2c7c0e6169e37435"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68ce2eed2c7c0e6169e37436"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68ce2eed2c7c0e6169e37437"
+          }
+        },
+        "_id": {
+          "$oid": "68ce2eed2c7c0e6169e37431"
+        }
+      },
+      {
+        "startingDate": {
+          "$date": "2025-09-29T02:22:58.243Z"
+        },
+        "endingDate": {
+          "$date": "2026-09-29T02:22:58.243Z"
+        },
+        "status": "pending",
+        "physical": {
+          "preparation": {
+            "allocatedTime": 4,
+            "timeType": "weeks",
+            "generals": [
+              "Gelaw"
+            ],
+            "specifics": [],
+            "specificDescriptions": [
+              "Testing "
+            ]
+          },
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68d9ed820e22f22ef9f70c10"
+          }
+        },
+        "technical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68d9ed820e22f22ef9f70c11"
+          }
+        },
+        "psychological": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68d9ed820e22f22ef9f70c12"
+          }
+        },
+        "tactical": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68d9ed820e22f22ef9f70c13"
+          }
+        },
+        "nutrition": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68d9ed820e22f22ef9f70c14"
+          }
+        },
+        "recovery": {
+          "preparation": null,
+          "competition": null,
+          "transition": null,
+          "_id": {
+            "$oid": "68d9ed820e22f22ef9f70c15"
+          }
+        },
+        "_id": {
+          "$oid": "68d9ed820e22f22ef9f70c0f"
+        }
+      }
+    ],
+    "initialAssessment": {
+      "competitiveStateAnxietyInventory": {
+        "concernedAboutCompetition": 1,
+        "feelNervous": 1,
+        "feelAtEase": 1,
+        "haveSelfDoubts": 1,
+        "feelJittery": 1,
+        "feelComfortable": 1,
+        "concernedMayNotDoAsWell": 1,
+        "bodyFeelsTense": 1,
+        "feelSelfConfident": 1,
+        "concernedAboutLosing": 1,
+        "feelTenseInStomach": 1,
+        "feelSecure": 1,
+        "bodyFeelsRelaxed": 1,
+        "confidentToMeetChallenge": 1,
+        "concernedAboutPerformingPoorly": 1,
+        "heartRacing": 1,
+        "confidentPerformingWell": 1,
+        "worriedReachingGoal": 1,
+        "stomachSinking": 1,
+        "mentallyRelaxed": 1,
+        "concernedOthersWillBeDisappointed": 1,
+        "handsClammy": 1,
+        "mentallyPictureReachingGoal": 1,
+        "concernedWontAbleToConcentrate": 1,
+        "bodyFeelsTight": 1,
+        "confidentComingThroughPressure": 1
+      },
+      "mindfulnessQuestionnaire": {
+        "ffqm1": 1,
+        "ffqm2": 1,
+        "ffqm3": 1,
+        "ffqm4": 1,
+        "ffqm5": 1,
+        "ffqm6": 1,
+        "ffqm7": 1,
+        "ffqm8": 1,
+        "ffqm9": 1,
+        "ffqm10": 1,
+        "ffqm11": 1,
+        "ffqm12": 1,
+        "ffqm13": 1,
+        "ffqm14": 1,
+        "ffqm15": 1,
+        "ffqm16": 1,
+        "ffqm17": 1,
+        "ffqm18": 1,
+        "ffqm19": 1,
+        "ffqm20": 1,
+        "ffqm21": 1,
+        "ffqm22": 1,
+        "ffqm23": 1,
+        "ffqm24": 1,
+        "ffqm25": 1,
+        "ffqm26": 1,
+        "ffqm27": 1,
+        "ffqm28": 1,
+        "ffqm29": 1,
+        "ffqm30": 1,
+        "ffqm31": 1,
+        "ffqm32": 1,
+        "ffqm33": 1,
+        "ffqm34": 1,
+        "ffqm35": 1,
+        "ffqm36": 1,
+        "ffqm37": 1,
+        "ffqm38": 1,
+        "ffqm39": 1
+      }
+    },
+    "updatedAt": {
+      "$date": "2025-11-16T20:10:34.771Z"
+    },
+    "marketplaceProfile": {
+      "desiredServices": [
+        "group sessions"
+      ],
+      "level": "beginner",
+      "rank": null,
+      "zip": "60605",
+      "availability": [],
+      "sessionDuration": 60,
+      "courtSurfaces": [
+        "Hard"
+      ],
+      "playingStyle": "Baseline",
+      "languages": [
+        "English"
+      ],
+      "experience": "beginner",
+      "packagePreference": [
+        "single"
+      ],
+      "maxBudgetPerSession": 31,
+      "travelDistance": 10,
+      "goals": [],
+      "isActivelySearching": false,
+      "preferredCoachGender": "no preference"
+    },
+    "emailVerified": true,
+    "loginAttempts": 0,
+    "passwordSet": true,
+    "registrationStep": "profile_completion",
+    "emailVerifiedAt": {
+      "$date": "2025-08-11T08:20:14.067Z"
+    },
+    "passwordChangedAt": {
+      "$date": "2025-08-19T03:15:44.489Z"
+    },
+    "passwordSetAt": {
+      "$date": "2025-08-19T03:15:45.475Z"
+    },
+    "coachRequests": [
+      {
+        "$oid": "68c593f3d0ba56f99260a4c6"
+      },
+      {
+        "$oid": "68c9417dbeceed92ca87e4b2"
+      },
+      {
+        "$oid": "6917e0234dc480289a3a0e2f"
+      },
+      {
+        "$oid": "6917e1a44dc480289a3a0fbf"
+      },
+      {
+        "$oid": "6917e7e4450de126d55ce6d9"
+      },
+      {
+        "$oid": "6917e84b521935126b6beb8d"
+      },
+      {
+        "$oid": "6917e8d49ac24943823d59fb"
+      },
+      {
+        "$oid": "6917e8f39ac24943823d5b33"
+      },
+      {
+        "$oid": "6917eabe21c6fce41d81157e"
+      }
+    ],
+    "currentCoaches": [
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2025-11-15T03:09:43.923Z"
+        },
+        "assignmentType": "group",
+        "sessionType": "group sessions",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c593f3d0ba56f99260a56d"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2024-12-01T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c94245beceed92ca87e58d"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2024-12-01T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "68c94246beceed92ca87e652"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917ead921c6fce41d811678"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917ead921c6fce41d81174f"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eb1d79ce7f8a70fc8e31"
+        }
+      },
+      {
+        "coach": {
+          "$oid": "673b63efc252bcc5e733f0ed"
+        },
+        "assignedAt": {
+          "$date": "2025-11-22T00:00:00Z"
+        },
+        "assignmentType": "individual",
+        "sessionType": "private lessons",
+        "isActive": true,
+        "_id": {
+          "$oid": "6917eb1e79ce7f8a70fc8f10"
+        }
+      }
+    ],
+    "organizationRole": "member",
+    "organizationStatus": "pending",
+    "playerGroups": [
+      {
+        "group": {
+          "$oid": "6917ee7d1659bf22901d3b73"
+        },
+        "status": "active",
+        "_id": {
+          "$oid": "6917eee51659bf22901d3c05"
+        },
+        "joinedAt": {
+          "$date": "2025-11-15T03:09:25.941Z"
+        }
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Perfect Match",
+        "description": "This is a detailed description of my personal achievement. It represents a significant milestone in my tennis journey and demonstrates my dedication to improving my skills.",
+        "achievedOn": {
+          "$date": "2025-01-12T09:58:33.626Z"
+        },
+        "_id": {
+          "$oid": "68c691c9b5d75cc50ae17735"
+        },
+        "createdAt": {
+          "$date": "2025-09-14T09:58:33.812Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T09:58:33.812Z"
+        }
+      },
+      {
+        "title": "Consistency Master",
+        "description": "This is a detailed description of my personal achievement. It represents a significant milestone in my tennis journey and demonstrates my dedication to improving my skills.",
+        "achievedOn": {
+          "$date": "2024-11-10T10:00:41.254Z"
+        },
+        "_id": {
+          "$oid": "68c69249b5d75cc50ae17e5d"
+        },
+        "createdAt": {
+          "$date": "2025-09-14T10:00:41.673Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T10:00:41.673Z"
+        }
+      },
+      {
+        "title": "Strategic Thinker",
+        "description": "This is a detailed description of my personal achievement. It represents a significant milestone in my tennis journey and demonstrates my dedication to improving my skills.",
+        "achievedOn": {
+          "$date": "2025-05-22T18:08:23.710Z"
+        },
+        "_id": {
+          "$oid": "68c70497b5d75cc50ae2de50"
+        },
+        "createdAt": {
+          "$date": "2025-09-14T18:08:23.985Z"
+        },
+        "updatedAt": {
+          "$date": "2025-09-14T18:08:23.985Z"
+        }
+      }
+    ],
+    "whoopIntegration": {
+      "accessToken": null,
+      "connectedAt": {
+        "$date": "2025-11-15T23:17:23.613Z"
+      },
+      "email": "gelawmpi@gmail.com",
+      "isConnected": false,
+      "userId": "30926998",
+      "refreshToken": null,
+      "tokenExpiresAt": {
+        "$date": "2025-11-16T00:17:22.613Z"
+      },
+      "lastSyncedAt": {
+        "$date": "2025-11-15T23:17:23.613Z"
+      }
+    }
+  }
+]

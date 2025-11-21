@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Organization Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3a0ca3;
+            --accent-color: #7209b7;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+            --success-color: #4cc9f0;
+            --warning-color: #f72585;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fb;
+            color: var(--dark-color);
+            padding-top: 20px;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-header {
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 12px 12px 0 0 !important;
+            padding: 15px 20px;
+            font-weight: 600;
+        }
+        
+        .organization-card {
+            cursor: pointer;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .organization-card:hover {
+            border-left-color: var(--accent-color);
+        }
+        
+        .player-card, .coach-card {
+            border-left: 4px solid var(--success-color);
+        }
+        
+        .group-card {
+            border-left: 4px solid var(--warning-color);
+            min-height: 300px;
+        }
+        
+        .group-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .player-item, .coach-item {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+            transition: background-color 0.2s;
+        }
+        
+        .player-item:hover, .coach-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .player-item:last-child, .coach-item:last-child {
+            border-bottom: none;
+        }
+        
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        
+        .badge {
+            font-size: 0.7rem;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-warning {
+            background-color: var(--warning-color);
+            border-color: var(--warning-color);
+            color: white;
+        }
+        
+        .btn-warning:hover {
+            background-color: #e11574;
+            border-color: #e11574;
+            color: white;
+        }
+        
+        .stats-card {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .stats-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .stats-label {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        
+        .group-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .sortable-ghost {
+            opacity: 0.4;
+        }
+        
+        .group-player {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            cursor: move;
+            display: flex;
+            align-items: center;
+        }
+        
+        .group-player:hover {
+            background-color: #e9ecef;
+        }
+        
+        .empty-group {
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .section-title {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+        
+        .prompt-section {
+            background-color: #e9f7fe;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white rounded shadow-sm mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-tennis-ball me-2"></i>TennisOrg Manager
+                </a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="row">
+            <!-- Organizations List -->
+            <div class="col-md-4" id="organizations-section">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>Organizations</span>
+                        <button class="btn btn-sm btn-outline-light" id="refresh-orgs">
+                            <i class="fas fa-sync-alt"></i>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search organizations..." id="org-search">
+                            <button class="btn btn-outline-primary" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                        <div id="organizations-list" class="list-group">
+                            <!-- Organizations will be loaded here -->
+                            <div class="text-center py-4">
+                                <div class="loading"></div>
+                                <p class="mt-2">Loading organizations...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Organization Details -->
+            <div class="col-md-8" id="organization-details" style="display: none;">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span id="org-name">Organization Details</span>
+                        <button class="btn btn-sm btn-outline-light" id="back-to-orgs">
+                            <i class="fas fa-arrow-left me-1"></i> Back to List
+                        </button>
+                    </div>
+                    <div class="card-body" id="org-details-body">
+                        <!-- Content will be loaded here dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script>
+        // Base URL for API
+        const BASE_URL = 'http://localhost:5000';
+        
+        // Current state
+        let currentOrganization = null;
+        let currentGroups = null;
+        
+        // DOM Elements
+        const organizationsSection = document.getElementById('organizations-section');
+        const organizationDetails = document.getElementById('organization-details');
+        const orgDetailsBody = document.getElementById('org-details-body');
+        const organizationsList = document.getElementById('organizations-list');
+        
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load organizations
+            loadOrganizations();
+            
+            // Set up event listeners
+            document.getElementById('refresh-orgs').addEventListener('click', loadOrganizations);
+            document.getElementById('back-to-orgs').addEventListener('click', showOrganizationsList);
+            
+            // Set up search functionality
+            document.getElementById('org-search').addEventListener('input', filterOrganizations);
+        });
+        
+        // Load organizations from the server
+        async function loadOrganizations() {
+            try {
+                organizationsList.innerHTML = `
+                    <div class="text-center py-4">
+                        <div class="loading"></div>
+                        <p class="mt-2">Loading organizations...</p>
+                    </div>
+                `;
+                
+                // Fetch organizations from the API
+                const response = await fetch(`${BASE_URL}/api/organizations`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                displayOrganizations(data.items);
+            } catch (error) {
+                console.error('Error loading organizations:', error);
+                organizationsList.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Failed to load organizations. Please try again.
+                    </div>
+                `;
+            }
+        }
+        
+        // Display organizations in the list
+        function displayOrganizations(organizations) {
+            if (!organizations || organizations.length === 0) {
+                organizationsList.innerHTML = `
+                    <div class="text-center py-4">
+                        <i class="fas fa-inbox fa-2x text-muted mb-2"></i>
+                        <p>No organizations found.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            organizationsList.innerHTML = '';
+            organizations.forEach(org => {
+                const orgData = org.organization;
+                const orgId = orgData._id;
+                const orgName = orgData.name || 'Unnamed Organization';
+                const playerCount = org.counts.players || 0;
+                const coachCount = org.counts.coaches || 0;
+                
+                const orgElement = document.createElement('div');
+                orgElement.className = 'list-group-item list-group-item-action organization-card fade-in';
+                orgElement.innerHTML = `
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">${orgName}</h5>
+                        <small>ID: ${orgId}</small>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span><i class="fas fa-users me-1"></i> ${playerCount} Players</span>
+                        <span><i class="fas fa-chalkboard-teacher me-1"></i> ${coachCount} Coaches</span>
+                    </div>
+                `;
+                orgElement.addEventListener('click', () => loadOrganizationDetails(orgId));
+                organizationsList.appendChild(orgElement);
+            });
+        }
+        
+        // Filter organizations based on search input
+        function filterOrganizations() {
+            const searchTerm = document.getElementById('org-search').value.toLowerCase();
+            const orgItems = organizationsList.querySelectorAll('.organization-card');
+            
+            orgItems.forEach(item => {
+                const orgName = item.querySelector('h5').textContent.toLowerCase();
+                if (orgName.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+        
+        // Load details for a specific organization
+        async function loadOrganizationDetails(orgId) {
+            try {
+                // Show loading state
+                orgDetailsBody.innerHTML = `
+                    <div class="text-center py-5">
+                        <div class="loading"></div>
+                        <p class="mt-2">Loading organization details...</p>
+                    </div>
+                `;
+                
+                // Update organization name in header
+                document.getElementById('org-name').textContent = 'Loading...';
+                
+                // Fetch organization details
+                const response = await fetch(`${BASE_URL}/api/organizations/${orgId}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                currentOrganization = data;
+                
+                displayOrganizationDetails(data);
+                showOrganizationDetails();
+            } catch (error) {
+                console.error('Error loading organization details:', error);
+                orgDetailsBody.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Failed to load organization details. Please try again.
+                    </div>
+                `;
+            }
+        }
+        
+        // Display organization details
+        function displayOrganizationDetails(data) {
+            // Update organization name in header
+            document.getElementById('org-name').textContent = data.organization.name || 'Organization Details';
+            
+            // Build the organization details HTML
+            const playersCount = data.counts.players || 0;
+            const coachesCount = data.counts.coaches || 0;
+            const courtsCount = data.counts.courts || 0;
+            
+            let playersHTML = '';
+            if (data.players && data.players.length > 0) {
+                data.players.forEach(player => {
+                    playersHTML += createPersonHTML(player, 'player');
+                });
+            } else {
+                playersHTML = `
+                    <div class="text-center py-4 text-muted">
+                        <i class="fas fa-user-slash fa-2x mb-2"></i>
+                        <p>No players found in this organization.</p>
+                    </div>
+                `;
+            }
+            
+            let coachesHTML = '';
+            if (data.coaches && data.coaches.length > 0) {
+                data.coaches.forEach(coach => {
+                    coachesHTML += createPersonHTML(coach, 'coach');
+                });
+            } else {
+                coachesHTML = `
+                    <div class="text-center py-4 text-muted">
+                        <i class="fas fa-chalkboard-teacher fa-2x mb-2"></i>
+                        <p>No coaches found in this organization.</p>
+                    </div>
+                `;
+            }
+            
+            // Set the organization details body HTML
+            orgDetailsBody.innerHTML = `
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <div class="stats-card card">
+                            <div class="stats-number">${playersCount}</div>
+                            <div class="stats-label">Players</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stats-card card">
+                            <div class="stats-number">${coachesCount}</div>
+                            <div class="stats-label">Coaches</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stats-card card">
+                            <div class="stats-number">${courtsCount}</div>
+                            <div class="stats-label">Courts</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="section-title">Players</h4>
+                        <div id="players-list" class="list-group">
+                            ${playersHTML}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="section-title">Coaches</h4>
+                        <div id="coaches-list" class="list-group">
+                            ${coachesHTML}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grouping Options -->
+                <div class="prompt-section mt-4">
+                    <h5>Grouping Options</h5>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="grouping-prompt" class="form-label">Grouping Prompt (Optional)</label>
+                                <input type="text" class="form-control" id="grouping-prompt" 
+                                       placeholder="E.g., Group by age and skill level...">
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-end">
+                            <button class="btn btn-warning w-100" id="prompt-grouping">
+                                <i class="fas fa-magic me-1"></i> Smart Grouping
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <button class="btn btn-primary w-100" id="rule-based-grouping">
+                                <i class="fas fa-random me-1"></i> Rule-Based Grouping
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary w-100" id="kmeans-grouping">
+                                <i class="fas fa-project-diagram me-1"></i> K-Means Grouping
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Groups Display -->
+                <div id="groups-section" class="mt-4" style="display: none;">
+                    <h4 class="section-title">Groups</h4>
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        You can drag and drop players between groups to reorganize them.
+                    </div>
+                    <div id="groups-container" class="group-container">
+                        <!-- Groups will be loaded here -->
+                    </div>
+                </div>
+            `;
+            
+            // Re-attach event listeners for the grouping buttons
+            document.getElementById('rule-based-grouping').addEventListener('click', performRuleBasedGrouping);
+            document.getElementById('kmeans-grouping').addEventListener('click', performKMeansGrouping);
+            document.getElementById('prompt-grouping').addEventListener('click', performPromptGrouping);
+        }
+        
+        // Create HTML for a person (player or coach)
+        function createPersonHTML(person, type) {
+            const avatar = person.avatar || 'https://picsum.photos/200/300';
+            const name = `${person.firstName || ''} ${person.lastName || ''}`.trim() || 'Unknown';
+            const badge = person.badge ? `<span class="badge bg-primary ms-2">${person.badge}</span>` : '';
+            
+            return `
+                <div class="list-group-item ${type}-item fade-in">
+                    <div class="d-flex align-items-center">
+                        <img src="${avatar}" alt="${name}" class="avatar">
+                        <div class="flex-grow-1">
+                            <h6 class="mb-0">${name} ${badge}</h6>
+                            <small class="text-muted">${type === 'player' ? 'Player' : 'Coach'}</small>
+                        </div>
+                        <div class="text-end">
+                            <small class="text-muted">${person.emailAddress?.email || 'No email'}</small>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Show organization details view
+        function showOrganizationDetails() {
+            organizationsSection.style.display = 'none';
+            organizationDetails.style.display = 'block';
+        }
+        
+        // Show organizations list view
+        function showOrganizationsList() {
+            organizationDetails.style.display = 'none';
+            organizationsSection.style.display = 'block';
+        }
+        
+        // Perform rule-based grouping
+        async function performRuleBasedGrouping() {
+            if (!currentOrganization) {
+                alert('Please select an organization first.');
+                return;
+            }
+            
+            try {
+                showLoadingState('grouping', 'Performing rule-based grouping...');
+                
+                const response = await fetch(
+                    `${BASE_URL}/api/organizations/${currentOrganization.organization._id}/group/rule-based`
+                );
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                currentGroups = data;
+                displayGroups(data);
+            } catch (error) {
+                console.error('Error performing rule-based grouping:', error);
+                showErrorState('grouping', 'Failed to perform rule-based grouping. Please try again.');
+            }
+        }
+        
+        // Perform k-means grouping
+        async function performKMeansGrouping() {
+            if (!currentOrganization) {
+                alert('Please select an organization first.');
+                return;
+            }
+            
+            try {
+                showLoadingState('grouping', 'Performing k-means grouping...');
+                
+                const response = await fetch(
+                    `${BASE_URL}/api/organizations/${currentOrganization.organization._id}/group/kmeans`
+                );
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                currentGroups = data;
+                displayGroups(data);
+            } catch (error) {
+                console.error('Error performing k-means grouping:', error);
+                showErrorState('grouping', 'Failed to perform k-means grouping. Please try again.');
+            }
+        }
+        
+        // Perform prompt-based grouping
+        async function performPromptGrouping() {
+            if (!currentOrganization) {
+                alert('Please select an organization first.');
+                return;
+            }
+            
+            try {
+                const prompt = document.getElementById('grouping-prompt').value;
+                
+                showLoadingState('grouping', 'Performing smart grouping with your prompt...');
+                
+                const response = await fetch(`${BASE_URL}/api/grouping/prompt`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        prompt: prompt,
+                        organizationId: currentOrganization.organization._id
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                currentGroups = data.grouping;
+                displayGroups(data.grouping);
+            } catch (error) {
+                console.error('Error performing prompt-based grouping:', error);
+                showErrorState('grouping', 'Failed to perform smart grouping. Please try again.');
+            }
+        }
+        
+        // Display groups
+        function displayGroups(groupData) {
+            const groupsContainer = document.getElementById('groups-container');
+            const groupsSection = document.getElementById('groups-section');
+            
+            if (!groupsContainer || !groupsSection) {
+                console.error('Groups container or section not found');
+                return;
+            }
+            
+            groupsContainer.innerHTML = '';
+            
+            // Handle different response formats for different grouping methods
+            let groups = [];
+            if (groupData.groups) {
+                groups = groupData.groups;
+            } else if (groupData.clusters) {
+                groups = groupData.clusters.map(cluster => ({
+                    coach: cluster.coach,
+                    players: cluster.players
+                }));
+            }
+            
+            if (groups && groups.length > 0) {
+                groups.forEach((group, index) => {
+                    const groupElement = createGroupElement(group, index);
+                    groupsContainer.appendChild(groupElement);
+                });
+                
+                // Initialize drag and drop for groups
+                initializeDragAndDrop();
+                
+                // Show groups section
+                groupsSection.style.display = 'block';
+                
+                // Scroll to groups section
+                groupsSection.scrollIntoView({ behavior: 'smooth' });
+            } else {
+                showErrorState('grouping', 'No groups were created. There might not be enough players or coaches.');
+            }
+        }
+        
+        // Create a group element
+        function createGroupElement(group, index) {
+            const groupElement = document.createElement('div');
+            groupElement.className = 'card group-card fade-in';
+            groupElement.dataset.groupIndex = index;
+            
+            const coachName = group.coach ? 
+                `${group.coach.firstName || ''} ${group.coach.lastName || ''}`.trim() : 
+                'No Coach Assigned';
+                
+            const coachAvatar = group.coach?.avatar || 'https://picsum.photos/200/300';
+            
+            groupElement.innerHTML = `
+                <div class="group-header">
+                    <h5 class="mb-0">Group ${index + 1}</h5>
+                    <span class="badge bg-light text-dark">${group.players ? group.players.length : 0} players</span>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="${coachAvatar}" alt="${coachName}" class="avatar">
+                        <div>
+                            <h6 class="mb-0">${coachName}</h6>
+                            <small class="text-muted">Coach</small>
+                        </div>
+                    </div>
+                    
+                    <h6>Players:</h6>
+                    <div class="group-players" id="group-players-${index}">
+                        ${group.players && group.players.length > 0 ? 
+                            group.players.map(player => {
+                                const playerName = `${player.firstName || ''} ${player.lastName || ''}`.trim() || 'Unknown Player';
+                                const playerAvatar = player.avatar || 'https://picsum.photos/200/300';
+                                return `
+                                    <div class="group-player" data-player-id="${player._id}">
+                                        <img src="${playerAvatar}" alt="${playerName}" class="avatar">
+                                        <span>${playerName}</span>
+                                    </div>
+                                `;
+                            }).join('') : 
+                            '<div class="empty-group">No players in this group</div>'
+                        }
+                    </div>
+                </div>
+            `;
+            
+            return groupElement;
+        }
+        
+        // Initialize drag and drop functionality
+        function initializeDragAndDrop() {
+            const groupPlayersContainers = document.querySelectorAll('.group-players');
+            
+            groupPlayersContainers.forEach(container => {
+                new Sortable(container, {
+                    group: 'players',
+                    animation: 150,
+                    ghostClass: 'sortable-ghost',
+                    onEnd: function(evt) {
+                        console.log('Player moved from group', evt.from.id, 'to group', evt.to.id);
+                        // In a real app, you might want to update the backend with the new grouping
+                    }
+                });
+            });
+        }
+        
+        // Show loading state
+        function showLoadingState(context, message) {
+            const groupsContainer = document.getElementById('groups-container');
+            const groupsSection = document.getElementById('groups-section');
+            
+            if (context === 'grouping' && groupsContainer && groupsSection) {
+                groupsContainer.innerHTML = `
+                    <div class="col-12 text-center py-5">
+                        <div class="loading"></div>
+                        <p class="mt-2">${message}</p>
+                    </div>
+                `;
+                groupsSection.style.display = 'block';
+            }
+        }
+        
+        // Show error state
+        function showErrorState(context, message) {
+            const groupsContainer = document.getElementById('groups-container');
+            const groupsSection = document.getElementById('groups-section');
+            
+            if (context === 'grouping' && groupsContainer && groupsSection) {
+                groupsContainer.innerHTML = `
+                    <div class="col-12">
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            ${message}
+                        </div>
+                    </div>
+                `;
+                groupsSection.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

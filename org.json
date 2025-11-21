@@ -1,0 +1,1351 @@
+[
+  {
+
+    "updatedAt": {
+      "$date": "2025-09-11T14:49:34.752Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c2e19b06106dc5224c123d"
+    },
+    "name": "Test Tennis Club",
+    "description": "A test tennis organization",
+    "status": "inactive",
+    "type": "other",
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "email": "testclub@example.com",
+    "password": "SecurePassword123!",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "5551234567"
+    },
+    "address": {
+      "streetAddress": "123 Tennis Street",
+      "city": "Tennis City",
+      "stateProvince": "Tennis State",
+      "country": "USA",
+      "zipCode": "12345"
+    },
+    "isRegistrationComplete": true,
+    "provider": "local",
+    "activationToken": null,
+    "createdAt": {
+      "$date": "2025-09-11T14:50:03.413Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-11T14:50:03.413Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c2e1ff0c618b8240a1bea6"
+    },
+    "name": "Test Tennis Club",
+    "description": "A test tennis organization",
+    "status": "inactive",
+    "type": "other",
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "email": "testclub@example.com",
+    "password": "SecurePassword123!",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "5551234567"
+    },
+    "address": {
+      "streetAddress": "123 Tennis Street",
+      "city": "Tennis City",
+      "stateProvince": "Tennis State",
+      "country": "USA",
+      "zipCode": "12345"
+    },
+    "isRegistrationComplete": true,
+    "provider": "local",
+    "activationToken": null,
+    "createdAt": {
+      "$date": "2025-09-11T14:51:43.314Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-11T14:51:43.314Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c2e28d10e68f909c7fe853"
+    },
+    "name": "Elite Tennis Academy",
+    "description": "Premier tennis training facility",
+    "status": "inactive",
+    "type": "other",
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "email": "info@elitetennis.com",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "5559876543"
+    },
+    "address": {
+      "streetAddress": "456 Champion Drive",
+      "city": "Tennis Valley",
+      "stateProvince": "Sport State",
+      "country": "USA",
+      "zipCode": "54321"
+    },
+    "isRegistrationComplete": true,
+    "provider": "local",
+    "activationToken": null,
+    "createdAt": {
+      "$date": "2025-09-11T14:54:05.893Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-11T14:54:05.893Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c2e2a86edd4c152f5d582a"
+    },
+    "name": "Elite Tennis Academy",
+    "description": "Premier tennis training facility",
+    "status": "inactive",
+    "type": "other",
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "email": "info@elitetennis.com",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "5559876543"
+    },
+    "address": {
+      "streetAddress": "456 Champion Drive",
+      "city": "Tennis Valley",
+      "stateProvince": "Sport State",
+      "country": "USA",
+      "zipCode": "54321"
+    },
+    "isRegistrationComplete": true,
+    "provider": "local",
+    "activationToken": null,
+    "createdAt": {
+      "$date": "2025-09-11T14:54:32.372Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-11T14:54:32.372Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c2e2c4b5566843cbcf19b3"
+    },
+    "name": "Elite Tennis Academy",
+    "description": "Premier tennis training facility",
+    "status": "inactive",
+    "type": "other",
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "email": "info@elitetennis.com",
+    "phoneNumber": {
+      "countryCode": "US",
+      "number": "5559876543"
+    },
+    "address": {
+      "streetAddress": "456 Champion Drive",
+      "city": "Tennis Valley",
+      "stateProvince": "Sport State",
+      "country": "USA",
+      "zipCode": "54321"
+    },
+    "isRegistrationComplete": true,
+    "provider": "local",
+    "activationToken": null,
+    "createdAt": {
+      "$date": "2025-09-11T14:55:00.897Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-11T14:55:00.897Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c56e1424ef41cde80edd1b"
+    },
+    "name": "Organization-1757769236466",
+    "type": "other",
+    "email": "testacademy@test.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "d4362f35de56c14026778dc69333d4bd6fead2a57c45a6f3f3ac0980eb08f878",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T13:16:09.711Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T13:13:56.639Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T13:16:09.715Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5735ee07540a6bb0597c7"
+    },
+    "name": "Organization-1757770590930",
+    "type": "other",
+    "email": "test-org@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "af3eca3cb7fbb25dec1946f3e5f0588af1c5541825893fde1e5e4500f9a46151",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T14:56:41.354Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T13:36:30.957Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:56:41.355Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c579617db936fee40d517f"
+    },
+    "name": "Organization-1757772129289",
+    "type": "other",
+    "email": "newtest@org.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "68724a871339f65c5ccb48f7be99f03a047e247b161fe7cbb784b2f36b401c66",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T14:15:25.447Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T14:02:09.438Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:15:25.448Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c57d6a570b6475509159de"
+    },
+    "name": "Organization-1757773162711",
+    "type": "other",
+    "email": "test@neworg.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "0dc5c0c099998726a9670a586ed444442f3391e2891e12d30542d4ab991faf88",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T14:19:22.716Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T14:19:22.744Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:19:22.744Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c57e6d5caf140b647756f5"
+    },
+    "name": "Organization-1757773421211",
+    "type": "other",
+    "email": "testorg@mpitest.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "016bf4f76a7f4642cb45b7a8d0f30a83c1419929a93ee7353352fa5f20dfc716",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T14:23:41.213Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T14:23:41.372Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:23:41.372Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c57f526c5d405e486de0b7"
+    },
+    "name": "Test MPI Organization",
+    "type": "academy",
+    "email": "testmpiorg@example.com",
+    "address": {
+      "streetAddress": "123 Test Street",
+      "city": "Test City",
+      "stateProvince": "Test State",
+      "country": "United States",
+      "zipCode": "12345"
+    },
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "password": "$2a$10$0UTvNmiPz3TBHIa25CQqY.Q.1YKdg1zHkVy2zxx4HlsHwiXmv266a",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:27:30.659Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:28:48.165Z"
+    },
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:28:47.245Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c57fd15caf140b647756fc"
+    },
+    "name": "Organization-1757773777445",
+    "type": "other",
+    "email": "testorgapi@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "de33de6da1dd63880afe6cc803c306de38d9a11a3bfa65b37855508a84f0a97d",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T14:29:37.446Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T14:29:37.599Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:29:37.599Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5800d5caf140b64775702"
+    },
+    "name": "Complete Test Organization",
+    "type": "academy",
+    "email": "completetest@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:30:37.284Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:30:37.892Z"
+    },
+    "__v": 0,
+    "address": {
+      "streetAddress": "123 API Test Street",
+      "city": "Test City",
+      "stateProvince": "Test State",
+      "country": "United States",
+      "zipCode": "12345"
+    },
+    "password": "$2a$10$xqwohDRsE379SRWxlVnD3OX0.9aI8ya9Nz.CidU/jGIKFPW3lyHzG",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:30:36.982Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c5804f5caf140b6477570f"
+    },
+    "name": "Organization-1757773903601",
+    "type": "other",
+    "email": "testorg1757773903434@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 3,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:31:43.766Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:31:44.303Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c580a05caf140b64775717"
+    },
+    "name": "Test Organization 1757773983915",
+    "type": "academy",
+    "email": "testorg1757773983915@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:33:04.245Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:33:04.827Z"
+    },
+    "__v": 0,
+    "address": {
+      "streetAddress": "123 API Test Street",
+      "city": "Test City",
+      "stateProvince": "Test State",
+      "country": "United States",
+      "zipCode": "12345"
+    },
+    "password": "$2a$10$uBB8z2CZE86OdKYy4gGNf.dTXZZ1VkcgfKREAs6XiOMIl5GLAa5Lq",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:33:03.907Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c581365caf140b64775725"
+    },
+    "name": "Organization-1757774134252",
+    "type": "other",
+    "email": "testmpiorg2024@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "ea6bcec1665a551783f13dba62de5f9a1ba0b9f56b590ed6dfa5fa6dc3dd743c",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T14:35:34.253Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T14:35:34.405Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:35:34.405Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c582f2f79a21db863297d0"
+    },
+    "name": "Temporary Organization 1757774578155",
+    "type": "other",
+    "email": "testorg1757774578093@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:42:58.188Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:42:58.188Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5830ef79a21db863297df"
+    },
+    "name": "Temporary Organization 1757774606509",
+    "type": "other",
+    "email": "testorg1757774606467@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:43:26.534Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:43:26.534Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c58346f79a21db863297e7"
+    },
+    "name": "Temporary Organization 1757774662434",
+    "type": "other",
+    "email": "testorg1757774662386@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:44:22.578Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:44:24.212Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$FgAUrSP2RaANnwPgIJK9/ewu6.NWhULE0p/MJMo4CE5eWMudz2PYC",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:44:23.292Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c5842af79a21db8632980a"
+    },
+    "name": "Temporary Organization 1757774890501",
+    "type": "other",
+    "email": "testorg1757774890341@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:48:10.654Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:48:12.339Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$ULYG6B93ZuK2bjO1l1kKTuidGdv/EIPHyJoV0EcUgQXh2.lUmOkkS",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:48:11.415Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c5847f538ef5ea0f6f2508"
+    },
+    "name": "Temporary Organization 1757774975330",
+    "type": "other",
+    "email": "testorg1757774975293@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:49:35.495Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:49:37.216Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$FXIxByXoVyAx0fF90bu9yOMFpXM7tO60pft1TZhIVeqOPVbulimc6",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:49:36.292Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c584a71a08a4f13f9381c6"
+    },
+    "name": "Temporary Organization 1757775015933",
+    "type": "other",
+    "email": "testorg1757775015869@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:50:15.969Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:50:17.700Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$7Rmb6nIBZ7phmgzl/EqYWOz7pLtih9hAQCXNuUmRSYTzzFYfW71Jy",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:50:16.566Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c584d61a08a4f13f9381d3"
+    },
+    "name": "Temporary Organization 1757775062607",
+    "type": "other",
+    "email": "testorg1757775062420@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:51:02.768Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:51:04.598Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$4XSuazlmz3CBSHOHhKZYF.uiorLGXCkEoLCjLsin.PvWhq3WplqmG",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:51:03.469Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c585401a08a4f13f9381e1"
+    },
+    "name": "Temporary Organization 1757775168202",
+    "type": "other",
+    "email": "testorg1757775167972@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:52:48.344Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:52:50.266Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$PMKDmg8QAhnh.WzckgMz..rsfCPelv56WtNRwTO3oWepninUw0gHa",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:52:49.140Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c585741a08a4f13f9381ef"
+    },
+    "name": "Temporary Organization 1757775220911",
+    "type": "other",
+    "email": "testorg1757775220742@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:53:41.072Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:53:42.806Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$97N/2M3Cv4OVD.wG2QU7GenCa1mJIsY002eaiYU9jNjH2vezundUq",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:53:41.680Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c585a11363fb36dd6ac73e"
+    },
+    "name": "Test Organization 1757775265878",
+    "type": "academy",
+    "email": "testorg1757775265878@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T14:54:25.978Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T14:57:43.445Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$SRzJGmyLut1RdRoe8pFm1u4UI6XmL1p8XYtL14B8VnVqpadnP1jcq",
+    "passwordChangedAt": {
+      "$date": "2025-09-13T14:54:26.566Z"
+    },
+    "address": {
+      "streetAddress": "123 API Test Street",
+      "city": "Test City",
+      "stateProvince": "Test State",
+      "country": "United States",
+      "zipCode": "12345"
+    },
+    "phoneNumber": {
+      "countryCode": "+1",
+      "number": "2345678901"
+    },
+    "description": "Updated description for comprehensive testing"
+  },
+  {
+    "_id": {
+      "$oid": "68c59b74e8b54b4b13b7320c"
+    },
+    "name": "Organization-1757780852638",
+    "type": "other",
+    "email": "test-new-org-1757780852616@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "037d92c28abd5bf8dfe0f8f798144c954e13560109fdb13531c554314227ed4d",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:27:32.639Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:27:32.661Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:27:32.661Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c59d44e8b54b4b13b73741"
+    },
+    "name": "Organization-1757781316619",
+    "type": "other",
+    "email": "test-new-org-1757781316595@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "1f1ce37b9752f86fae5e978b5ade8c8e9d37e799d10d43bfc25eb16c3a130d78",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:35:16.620Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:35:16.642Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:35:16.642Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c59db9e8b54b4b13b73e44"
+    },
+    "name": "Organization-1757781433980",
+    "type": "other",
+    "email": "test-new-org-1757781433958@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "62be6cf42e7cc3c4a34543cc59da1c13e84acca763b07fff3bc18adcac9f123b",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:37:13.981Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:37:13.999Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:37:13.999Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c59e0be8b54b4b13b74510"
+    },
+    "name": "Organization-1757781515508",
+    "type": "other",
+    "email": "test-new-org-1757781515486@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "dd8867248abcd7ff7cf92a09ec38f075bd65bea63b24306c2a2b3d1f130dc34c",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:38:35.508Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:38:35.531Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:38:35.531Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5a0dd6a9b12dd6a45ef71"
+    },
+    "name": "Organization-1757782237012",
+    "type": "other",
+    "email": "test-new-org-1757782236958@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "c3446b92fcfface283eae980f480bb18e000d0a485f31fc3e04b21469e9e4058",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:50:37.013Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:50:37.034Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:50:37.034Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5a1a16a9b12dd6a45f6b0"
+    },
+    "name": "Organization-1757782433495",
+    "type": "other",
+    "email": "test-new-org-1757782433453@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "24dd273f60f8c3266c0228fc37a9a8391080209b5a85bfb493f0dd60ed1de089",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:53:53.495Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:53:53.517Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:53:53.517Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5a1d130012d1545e8e4ca"
+    },
+    "name": "Organization-1757782481401",
+    "type": "other",
+    "email": "test-new-org-1757782481372@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "7a7a7ce7f4477dab78ea5171a11bcc5720621fb16fcaf50e68c3aab8bbda2550",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:54:41.402Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:54:41.421Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:54:41.421Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5a238ebc07968c523dfd8"
+    },
+    "name": "Organization-1757782584105",
+    "type": "other",
+    "email": "test-new-org-1757782584079@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "d370dc4f883eb28b1a4159ccacd3e49e79fa02ea3d7fe5880863c7ed241af65b",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:56:24.106Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:56:24.128Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:56:24.128Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5a26d9cc9255d9d586393"
+    },
+    "name": "Organization-1757782637422",
+    "type": "other",
+    "email": "test-new-org-1757782637394@example.com",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": false,
+    "registrationStep": 1,
+    "emailVerified": false,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 0,
+    "socialMedia": [],
+    "emailVerificationToken": "5848d0ee502edc2a63aaecad348022c40cc5b7d5a4da7c5e2ad757ffc1903b54",
+    "emailVerificationExpires": {
+      "$date": "2025-09-14T16:57:17.423Z"
+    },
+    "createdAt": {
+      "$date": "2025-09-13T16:57:17.445Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T16:57:17.445Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68c5a9774d6825ddef18cb40"
+    },
+    "name": "Court Test Org 1757784439951",
+    "description": "Test organization for court management",
+    "type": "academy",
+    "email": "court-test-org-1757784439951@example.com",
+    "phoneNumber": {
+      "countryCode": "+1",
+      "number": "5551234567"
+    },
+    "address": {
+      "streetAddress": "123 Tennis Court St",
+      "city": "Tennis City",
+      "stateProvince": "TC",
+      "country": "USA",
+      "zipCode": "12345"
+    },
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "password": "$2a$10$MBBa7t2LViaaFQDoAmUXSeVdo409iyKyYQcB2KoqoU1y6XxASa3HG",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 1,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-09-13T17:27:20.110Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-13T17:27:20.438Z"
+    },
+    "passwordChangedAt": {
+      "$date": "2025-09-13T17:27:19.197Z"
+    },
+    "__v": 0,
+    "lastLoginAt": {
+      "$date": "2025-09-13T17:27:20.437Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68c930d8b5d75cc50ae7ce5d"
+    },
+    "name": "Test Tennis Academy",
+    "type": "academy",
+    "email": "testorg@example.com",
+    "timeZone": "America/Los_Angeles",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "deviceToken": null,
+    "coaches": [],
+    "players": [],
+    "loginCount": 5,
+    "socialMedia": [
+      {
+        "platform": "instagram",
+        "url": "https://instagram.com/testacademy"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://facebook.com/testacademy"
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-09-16T09:41:45.107Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-16T10:54:19.207Z"
+    },
+    "__v": 1,
+    "address": {
+      "streetAddress": "123 Tennis Court Lane",
+      "city": "Los Angeles",
+      "stateProvince": "California",
+      "country": "United States",
+      "zipCode": "90210",
+      "coordinates": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      }
+    },
+    "description": "Updated description for our premier tennis academy",
+    "logo": "https://avatar.iran.liara.run/public/4",
+    "password": "$2a$10$BuhET6m6D4EsFAae.5hSIe2MQM7cxwnFHXgZyGxHSngo9IinWGe8S",
+    "passwordChangedAt": {
+      "$date": "2025-09-16T09:49:08.035Z"
+    },
+    "phoneNumber": {
+      "countryCode": "+1",
+      "number": "5551234567"
+    },
+    "settings": {
+      "emailNotifications": true,
+      "smsNotifications": true,
+      "marketingEmails": false,
+      "dataRetentionPeriod": 730,
+      "allowPublicProfile": true,
+      "requirePaymentApproval": true,
+      "autoApproveBookings": false
+    },
+    "website": "https://updatedacademy.com",
+    "lastLoginAt": {
+      "$date": "2025-09-16T10:54:19.206Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "name": "Test Organization",
+    "type": "association",
+    "email": "example@example.org",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": null,
+    "badge": 0,
+    "coaches": [],
+    "players": [],
+    "loginCount": 1,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-11-06T17:32:25.573Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-15T21:10:58.318Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$H.eds5XQeosrNUrxsuPSQOzpmXNvOHa1WWwIGfljkET1wfAG7UXLK",
+    "passwordChangedAt": {
+      "$date": "2025-11-06T21:48:55.700Z"
+    },
+    "phoneNumber": {
+      "countryCode": "+1",
+      "number": "5551234567"
+    },
+    "lastLoginAt": {
+      "$date": "2025-11-15T21:10:58.316Z"
+    }
+  }
+]

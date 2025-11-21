@@ -1,0 +1,85 @@
+[
+  {
+    "_id": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "name": "Test Organization",
+    "type": "association",
+    "email": "example@example.org",
+    "timeZone": "UTC",
+    "isActive": true,
+    "isVerified": "pending",
+    "isRegistrationComplete": true,
+    "registrationStep": 4,
+    "emailVerified": true,
+    "provider": "local",
+    "activationToken": "$2a$12$tsrVkeRaPjf72g99UZ04..H4Nsw/P5Qedcng8M2p5JvQwL4ryMo9m",
+    "badge": 0,
+    "coaches": [
+      {
+        "$oid": "673b63efc252bcc5e733f0ed"
+      },
+      {
+      "$oid": "673b81e57bd77ca5bc9d792c"
+    },
+    {
+      "$oid": "6788089d000cf61d6d39128b"
+    }
+    ],
+    "players": [
+      {
+        "$oid": "673b5771922706927eae7aea"
+      },
+      {
+      "$oid": "67743f20f38abd3b7250a5a0"
+    },
+     {
+      "$oid": "6774f8a5f38abd3b7250ae4d"
+    },
+    {
+      "$oid": "677649d5f38abd3b725142e8"
+    },
+    {
+      "$oid": "67b2163c10687906aad7c749"
+    },
+    {
+      "$oid": "67b3c4105c84c29d4e93eb3c"
+    },
+    {
+      "$oid": "67b3d0ae5c84c29d4e9402ad"
+    },
+    {
+      "$oid": "67bbe95eb78e2317fd32dcce"
+    },
+    {
+      "$oid": "67bf4d46112e80c58f791377"
+    },
+    {
+      "$oid": "67c30ffdfd3986772fc61cdc"
+    }
+
+
+
+    ],
+    "loginCount": 2,
+    "socialMedia": [],
+    "createdAt": {
+      "$date": "2025-11-06T17:32:25.573Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-19T19:35:55.267Z"
+    },
+    "__v": 0,
+    "password": "$2a$10$H.eds5XQeosrNUrxsuPSQOzpmXNvOHa1WWwIGfljkET1wfAG7UXLK",
+    "passwordChangedAt": {
+      "$date": "2025-11-06T21:48:55.700Z"
+    },
+    "phoneNumber": {
+      "countryCode": "+1",
+      "number": "5551234567"
+    },
+    "lastLoginAt": {
+      "$date": "2025-11-19T19:14:09.482Z"
+    }
+  }
+]

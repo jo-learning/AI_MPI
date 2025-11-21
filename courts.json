@@ -1,0 +1,758 @@
+[
+  {
+    "_id": {
+      "$oid": "690f8c81e78a039282ffddd1"
+    },
+    "name": "Test Tennis Court",
+    "description": "Professional tennis court with modern facilities",
+    "courtNumber": "C-001",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "courtType": "tennis",
+    "surface": "hard",
+    "isIndoor": false,
+    "dimensions": {
+      "length": 23.77,
+      "width": 10.97
+    },
+    "status": "active",
+    "isActive": true,
+    "baseHourlyRate": 50,
+    "pricing": [
+      {
+        "timeSlot": "peak",
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "hourlyRate": 75,
+        "minimumBookingHours": 1
+      },
+      {
+        "timeSlot": "off_peak",
+        "startTime": "06:00",
+        "endTime": "18:00",
+        "hourlyRate": 50,
+        "minimumBookingHours": 1
+      }
+    ],
+    "operatingHours": [
+      {
+        "day": "monday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "tuesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "wednesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "thursday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "friday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "saturday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      },
+      {
+        "day": "sunday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      }
+    ],
+    "bookingSettings": {
+      "maxAdvanceBookingDays": 30,
+      "minBookingDuration": 1,
+      "maxBookingDuration": 4,
+      "allowRecurringBookings": true,
+      "requireApproval": false,
+      "cancellationDeadlineHours": 24
+    },
+    "images": [
+      {
+        "url": "https://media.istockphoto.com/id/1176735816/de/foto/blauer-tennisplatz-und-beleuchtete-indoor-arena-mit-fans-obere-frontansicht.jpg?s=2048x2048&w=is&k=20&c=cjsx5VHfSdCSipkVfrQXo8EkzjBpEexyuUZ-u6K_Hy4=",
+        "caption": "Main court view",
+        "isPrimary": true,
+        "_id": {
+          "$oid": "690f8c81e78a039282ffddd2"
+        }
+      }
+    ],
+    "amenities": [
+      "net",
+      "lighting",
+      "seating",
+      "water_fountain"
+    ],
+    "maintenanceNotes": "Regular maintenance required monthly",
+    "lastMaintenanceDate": {
+      "$date": "2025-10-09T20:31:28.955Z"
+    },
+    "nextMaintenanceDate": {
+      "$date": "2025-12-08T19:31:28.955Z"
+    },
+    "totalBookings": 0,
+    "totalRevenue": 0,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "createdByModel": "Organization",
+    "isDeleted": false,
+    "createdAt": {
+      "$date": "2025-11-08T18:31:29.820Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-08T18:31:29.820Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "690f8d36e78a039282ffddd5"
+    },
+    "name": "Test Tennis Court",
+    "description": "Professional tennis court with modern facilities",
+    "courtNumber": "C-001",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "courtType": "tennis",
+    "surface": "hard",
+    "isIndoor": false,
+    "dimensions": {
+      "length": 23.77,
+      "width": 10.97
+    },
+    "status": "active",
+    "isActive": true,
+    "baseHourlyRate": 50,
+    "pricing": [
+      {
+        "timeSlot": "peak",
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "hourlyRate": 75,
+        "minimumBookingHours": 1
+      },
+      {
+        "timeSlot": "off_peak",
+        "startTime": "06:00",
+        "endTime": "18:00",
+        "hourlyRate": 50,
+        "minimumBookingHours": 1
+      }
+    ],
+    "operatingHours": [
+      {
+        "day": "monday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "tuesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "wednesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "thursday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "friday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "saturday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      },
+      {
+        "day": "sunday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      }
+    ],
+    "bookingSettings": {
+      "maxAdvanceBookingDays": 30,
+      "minBookingDuration": 1,
+      "maxBookingDuration": 4,
+      "allowRecurringBookings": true,
+      "requireApproval": false,
+      "cancellationDeadlineHours": 24
+    },
+    "images": [
+      {
+        "url": "https://media.istockphoto.com/id/1176735816/de/foto/blauer-tennisplatz-und-beleuchtete-indoor-arena-mit-fans-obere-frontansicht.jpg?s=2048x2048&w=is&k=20&c=cjsx5VHfSdCSipkVfrQXo8EkzjBpEexyuUZ-u6K_Hy4=",
+        "caption": "Main court view",
+        "isPrimary": true,
+        "_id": {
+          "$oid": "690f8d36e78a039282ffddd6"
+        }
+      }
+    ],
+    "amenities": [
+      "net",
+      "lighting",
+      "seating",
+      "water_fountain"
+    ],
+    "maintenanceNotes": "Regular maintenance required monthly",
+    "lastMaintenanceDate": {
+      "$date": "2025-10-09T20:34:29.854Z"
+    },
+    "nextMaintenanceDate": {
+      "$date": "2025-12-08T19:34:29.854Z"
+    },
+    "totalBookings": 0,
+    "totalRevenue": 0,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "createdByModel": "Organization",
+    "isDeleted": false,
+    "createdAt": {
+      "$date": "2025-11-08T18:34:30.332Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-08T18:34:30.332Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "690f8db58576b5b15bafc895"
+    },
+    "name": "Test Tennis Court9 (Updated)",
+    "description": "Professional tennis court with modern facilities",
+    "courtNumber": "C-001",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "courtType": "tennis",
+    "surface": "hard",
+    "isIndoor": false,
+    "dimensions": {
+      "length": 23.77,
+      "width": 10.97
+    },
+    "status": "active",
+    "isActive": true,
+    "baseHourlyRate": 60,
+    "pricing": [
+      {
+        "timeSlot": "peak",
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "hourlyRate": 75,
+        "minimumBookingHours": 1
+      },
+      {
+        "timeSlot": "off_peak",
+        "startTime": "06:00",
+        "endTime": "18:00",
+        "hourlyRate": 50,
+        "minimumBookingHours": 1
+      }
+    ],
+    "operatingHours": [
+      {
+        "day": "monday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "tuesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "wednesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "thursday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "friday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "saturday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      },
+      {
+        "day": "sunday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      }
+    ],
+    "bookingSettings": {
+      "maxAdvanceBookingDays": 30,
+      "minBookingDuration": 1,
+      "maxBookingDuration": 4,
+      "allowRecurringBookings": true,
+      "requireApproval": false,
+      "cancellationDeadlineHours": 24
+    },
+    "images": [
+      {
+        "url": "https://media.istockphoto.com/id/1176735816/de/foto/blauer-tennisplatz-und-beleuchtete-indoor-arena-mit-fans-obere-frontansicht.jpg?s=2048x2048&w=is&k=20&c=cjsx5VHfSdCSipkVfrQXo8EkzjBpEexyuUZ-u6K_Hy4=",
+        "caption": "Main court view",
+        "isPrimary": true,
+        "_id": {
+          "$oid": "690f8db58576b5b15bafc896"
+        }
+      }
+    ],
+    "amenities": [
+      "net",
+      "lighting",
+      "seating",
+      "water_fountain"
+    ],
+    "maintenanceNotes": "Regular maintenance required monthly",
+    "lastMaintenanceDate": {
+      "$date": "2025-10-09T20:36:37.149Z"
+    },
+    "nextMaintenanceDate": {
+      "$date": "2025-12-08T19:36:37.149Z"
+    },
+    "totalBookings": 1,
+    "totalRevenue": 60,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "createdByModel": "Organization",
+    "isDeleted": false,
+    "createdAt": {
+      "$date": "2025-11-08T18:36:37.580Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-08T19:04:50.301Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "690f8f14ef07894debc85eb9"
+    },
+    "name": "Test Tennis Court",
+    "description": "Professional tennis court with modern facilities",
+    "courtNumber": "C-001",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "courtType": "tennis",
+    "surface": "hard",
+    "isIndoor": false,
+    "dimensions": {
+      "length": 23.77,
+      "width": 10.97
+    },
+    "status": "active",
+    "isActive": true,
+    "baseHourlyRate": 50,
+    "pricing": [
+      {
+        "timeSlot": "peak",
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "hourlyRate": 75,
+        "minimumBookingHours": 1
+      },
+      {
+        "timeSlot": "off_peak",
+        "startTime": "06:00",
+        "endTime": "18:00",
+        "hourlyRate": 50,
+        "minimumBookingHours": 1
+      }
+    ],
+    "operatingHours": [
+      {
+        "day": "monday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "tuesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "wednesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "thursday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "friday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "saturday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      },
+      {
+        "day": "sunday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      }
+    ],
+    "bookingSettings": {
+      "maxAdvanceBookingDays": 30,
+      "minBookingDuration": 1,
+      "maxBookingDuration": 4,
+      "allowRecurringBookings": true,
+      "requireApproval": false,
+      "cancellationDeadlineHours": 24
+    },
+    "images": [
+      {
+        "url": "https://media.istockphoto.com/id/1176735816/de/foto/blauer-tennisplatz-und-beleuchtete-indoor-arena-mit-fans-obere-frontansicht.jpg?s=2048x2048&w=is&k=20&c=cjsx5VHfSdCSipkVfrQXo8EkzjBpEexyuUZ-u6K_Hy4=",
+        "caption": "Main court view",
+        "isPrimary": true,
+        "_id": {
+          "$oid": "690f8f14ef07894debc85eba"
+        }
+      }
+    ],
+    "amenities": [
+      "net",
+      "lighting",
+      "seating",
+      "water_fountain"
+    ],
+    "maintenanceNotes": "Regular maintenance required monthly",
+    "lastMaintenanceDate": {
+      "$date": "2025-10-09T20:42:28.190Z"
+    },
+    "nextMaintenanceDate": {
+      "$date": "2025-12-08T19:42:28.190Z"
+    },
+    "totalBookings": 0,
+    "totalRevenue": 0,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "createdByModel": "Organization",
+    "isDeleted": false,
+    "createdAt": {
+      "$date": "2025-11-08T18:42:28.755Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-08T18:42:28.755Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "691e1c66dfd096f47d7e086e"
+    },
+    "name": "Test Tennis Court",
+    "description": "Professional tennis court with modern facilities",
+    "courtNumber": "C-001",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "courtType": "tennis",
+    "surface": "hard",
+    "isIndoor": false,
+    "dimensions": {
+      "length": 23.77,
+      "width": 10.97
+    },
+    "status": "active",
+    "isActive": true,
+    "baseHourlyRate": 50,
+    "pricing": [
+      {
+        "timeSlot": "peak",
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "hourlyRate": 75,
+        "minimumBookingHours": 1
+      },
+      {
+        "timeSlot": "off_peak",
+        "startTime": "06:00",
+        "endTime": "18:00",
+        "hourlyRate": 50,
+        "minimumBookingHours": 1
+      }
+    ],
+    "operatingHours": [
+      {
+        "day": "monday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "tuesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "wednesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "thursday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "friday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "saturday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      },
+      {
+        "day": "sunday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      }
+    ],
+    "bookingSettings": {
+      "maxAdvanceBookingDays": 30,
+      "minBookingDuration": 1,
+      "maxBookingDuration": 4,
+      "allowRecurringBookings": true,
+      "requireApproval": false,
+      "cancellationDeadlineHours": 24
+    },
+    "images": [
+      {
+        "url": "https://media.istockphoto.com/id/1176735816/de/foto/blauer-tennisplatz-und-beleuchtete-indoor-arena-mit-fans-obere-frontansicht.jpg?s=2048x2048&w=is&k=20&c=cjsx5VHfSdCSipkVfrQXo8EkzjBpEexyuUZ-u6K_Hy4=",
+        "caption": "Main court view",
+        "isPrimary": true,
+        "_id": {
+          "$oid": "691e1c66dfd096f47d7e086f"
+        }
+      }
+    ],
+    "amenities": [
+      "net",
+      "lighting",
+      "seating",
+      "water_fountain"
+    ],
+    "maintenanceNotes": "Regular maintenance required monthly",
+    "lastMaintenanceDate": {
+      "$date": "2025-10-20T21:37:10.067Z"
+    },
+    "nextMaintenanceDate": {
+      "$date": "2025-12-19T20:37:10.067Z"
+    },
+    "totalBookings": 0,
+    "totalRevenue": 0,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "createdByModel": "Organization",
+    "isDeleted": false,
+    "createdAt": {
+      "$date": "2025-11-19T19:37:10.434Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-19T19:37:10.434Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "691e1c71dfd096f47d7e087b"
+    },
+    "name": "Abelll Test Tennis Court (Updated)",
+    "description": "Professional tennis court with modern facilities",
+    "courtNumber": "C-001",
+    "organization": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "courtType": "tennis",
+    "surface": "hard",
+    "isIndoor": false,
+    "dimensions": {
+      "length": 23.77,
+      "width": 10.97
+    },
+    "status": "active",
+    "isActive": true,
+    "baseHourlyRate": 60,
+    "pricing": [
+      {
+        "timeSlot": "peak",
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "hourlyRate": 75,
+        "minimumBookingHours": 1
+      },
+      {
+        "timeSlot": "off_peak",
+        "startTime": "06:00",
+        "endTime": "18:00",
+        "hourlyRate": 50,
+        "minimumBookingHours": 1
+      }
+    ],
+    "operatingHours": [
+      {
+        "day": "monday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "tuesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "wednesday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "thursday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "friday",
+        "isOpen": true,
+        "openTime": "06:00",
+        "closeTime": "22:00"
+      },
+      {
+        "day": "saturday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      },
+      {
+        "day": "sunday",
+        "isOpen": true,
+        "openTime": "08:00",
+        "closeTime": "20:00"
+      }
+    ],
+    "bookingSettings": {
+      "maxAdvanceBookingDays": 30,
+      "minBookingDuration": 1,
+      "maxBookingDuration": 4,
+      "allowRecurringBookings": true,
+      "requireApproval": false,
+      "cancellationDeadlineHours": 24
+    },
+    "images": [
+      {
+        "url": "https://media.istockphoto.com/id/1176735816/de/foto/blauer-tennisplatz-und-beleuchtete-indoor-arena-mit-fans-obere-frontansicht.jpg?s=2048x2048&w=is&k=20&c=cjsx5VHfSdCSipkVfrQXo8EkzjBpEexyuUZ-u6K_Hy4=",
+        "caption": "Main court view",
+        "isPrimary": true,
+        "_id": {
+          "$oid": "691e1c71dfd096f47d7e087c"
+        }
+      }
+    ],
+    "amenities": [
+      "net",
+      "lighting",
+      "seating",
+      "water_fountain"
+    ],
+    "maintenanceNotes": "Regular maintenance required monthly",
+    "lastMaintenanceDate": {
+      "$date": "2025-10-20T21:37:20.727Z"
+    },
+    "nextMaintenanceDate": {
+      "$date": "2025-12-19T20:37:20.728Z"
+    },
+    "totalBookings": 0,
+    "totalRevenue": 0,
+    "createdBy": {
+      "$oid": "690cdba9809365c990983391"
+    },
+    "createdByModel": "Organization",
+    "isDeleted": false,
+    "createdAt": {
+      "$date": "2025-11-19T19:37:21.350Z"
+    },
+    "updatedAt": {
+      "$date": "2025-11-19T19:38:04.706Z"
+    },
+    "__v": 0
+  }
+]
